@@ -9,7 +9,7 @@ class Main extends Component {
     this.state = { count: 0 };
   }
   onPress = () => {
-    this.props.navigation.navigate('Tìm Lớp');
+    this.props.navigation.navigate('Test');
   };
   
   render() {
@@ -35,7 +35,7 @@ class Main extends Component {
         
         <TouchableOpacity
           style={styles.button1}
-          onPress={() => this.props.navigation.navigate('Học Tập')}
+          onPress={() => this.props.navigation.navigate('Test')}
         >
           <Image
           source={{uri: 'https://i.imgur.com/tjqsgoe.png',}}
@@ -47,7 +47,7 @@ class Main extends Component {
         
         <TouchableOpacity
           style={styles.button3}
-          onPress={() => this.props.navigation.navigate('Danh sách gia sư')}
+          onPress={() => this.props.navigation.navigate('Test')}
         >
           <Image
           source={{uri: 'https://i.imgur.com/TmB2W5s.png',}}
@@ -105,7 +105,7 @@ class Main extends Component {
           </Text>
           <TouchableOpacity
           style={styles.button2}
-          onPress={() => this.props.navigation.navigate('Đăng kí cho học sinh')}
+          onPress={() => this.props.navigation.navigate('Test')}
           >
           <Text style={{ fontSize : 18 }} > 
             Xem chi tiết
@@ -130,7 +130,7 @@ class Main extends Component {
           </Text>
           <TouchableOpacity
           style={styles.button2}
-          onPress={() => this.props.navigation.navigate('Đăng kí cho học sinh')}
+          onPress={() => this.props.navigation.navigate('Test')}
           >
           <Text style={{ fontSize : 18 }} > 
             Xem chi tiết
@@ -155,7 +155,7 @@ class Main extends Component {
           </Text>
           <TouchableOpacity
           style={styles.button2}
-          onPress={() => this.props.navigation.navigate('Đăng kí cho học sinh')}
+          onPress={() => this.props.navigation.navigate('Test')}
           >
           <Text style={{ fontSize : 18 }} > 
             Xem chi tiết

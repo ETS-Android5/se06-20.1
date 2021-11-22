@@ -30,7 +30,7 @@ render() {
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => this.props.navigation.navigate('Tạo lớp học mới')}
+          onPress={() => this.props.navigation.navigate('Test')}
         >
           
           <Text style={{ fontSize : 18 }} > 
