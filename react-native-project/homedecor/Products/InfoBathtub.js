@@ -5,7 +5,7 @@ import {
     , Dimensions, Alert
 } from 'react-native'
 const { width, height } = Dimensions.get('window')
-const Clothing = ({ route, navigation }) => {
+const infoBathtub = ({ route, navigation }) => {
     const { item } = route.params
     return (
         <SafeAreaView style={styles.container}>
@@ -29,10 +29,11 @@ const Clothing = ({ route, navigation }) => {
                     Quantity: {item.quantity}
                 </Text>
                 <Text style={styles.textsize}>
-                    Size: {item.size} S M L XL XXL
+                    Size: {item.size} Full set
                 </Text>
                 <Text style={styles.textcolor}>
-                    Color: {item.color} Red Blue Yellow Pink White Black
+
+                    Manufacturer: {item.color} Japan Korea VietNam US UK China
                 </Text>
             </View>
             <TouchableOpacity style={styles.button}
@@ -43,8 +44,9 @@ const Clothing = ({ route, navigation }) => {
                         ])
                     },
 
-                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua chứ không xem chùa :)') }
-                ])}>
+                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua') }
+                ])}
+            >
                 <Text>
                     BUY NOW --{'>'}
                 </Text>
@@ -54,7 +56,7 @@ const Clothing = ({ route, navigation }) => {
     )
 }
 
-export default Clothing
+export default infoBathtub
 const styles = StyleSheet.create({
     container: {
         flex: 1,

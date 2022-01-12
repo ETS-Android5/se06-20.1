@@ -5,7 +5,7 @@ import {
     , Dimensions, Alert
 } from 'react-native'
 const { width, height } = Dimensions.get('window')
-const Shoes = ({ route, navigation }) => {
+const infoWardrobe = ({ route, navigation }) => {
     const { item } = route.params
     return (
         <SafeAreaView style={styles.container}>
@@ -29,7 +29,7 @@ const Shoes = ({ route, navigation }) => {
                     Quantity: {item.quantity}
                 </Text>
                 <Text style={styles.textsize}>
-                    Size: {item.size} 28 29 30 31 32 33 35 36 37 39 40 41 42
+                    Size: {item.size} S M L XL XXL
                 </Text>
                 <Text style={styles.textcolor}>
                     Color: {item.color} Red Blue Yellow Pink White Black
@@ -43,7 +43,7 @@ const Shoes = ({ route, navigation }) => {
                         ])
                     },
 
-                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua chứ không xem chùa :)') }
+                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua') }
                 ])}>
                 <Text>
                     BUY NOW --{'>'}
@@ -54,7 +54,7 @@ const Shoes = ({ route, navigation }) => {
     )
 }
 
-export default Shoes
+export default infoWardrobe
 const styles = StyleSheet.create({
     container: {
         flex: 1,

@@ -6,10 +6,10 @@ import {
 } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 const { width, height } = Dimensions.get('window');
-const ProductShoes = ({ navigation }) => {
+const ProductBathtub = ({ navigation }) => {
     const [dataclothing, setDataClothing] = useState([]);
     useEffect(() => {
-        const urlClothing = 'https://huynhpt.github.io/Shoes.json';
+        const urlClothing = 'https://612ced09ab461c00178b5fbb.mockapi.io/api/users/test';
         fetch(urlClothing).then(resclo => resclo.json())
             .then(responclo => { setDataClothing(responclo) })
             .catch(error => ' lỗi không có dữ liệu')
@@ -33,7 +33,7 @@ const ProductShoes = ({ navigation }) => {
                     />
                     <TouchableOpacity
                         onPress={() => {
-                            navigation.navigate("ProductShoes", { item })
+                            navigation.navigate('infoBathtub', { item })
                         }}
                     >
                         <Text
@@ -74,7 +74,7 @@ const ProductShoes = ({ navigation }) => {
     );
 }
 
-export default ProductShoes
+export default ProductBathtub
 const styles = StyleSheet.create({
     container: {
         flex: 1,

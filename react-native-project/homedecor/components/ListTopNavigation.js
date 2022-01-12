@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { View, Text, Dimensions } from 'react-native'
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
-import ProductFace from '../Products/ProductFace';
-import ProductSkirt from '../Products/ProductClothings';
-import ProductShoes from '../Products/ProductShoes';
-import ProductBra from '../Products/ProductBra';
+import ProductBathtub from '../Products/ProductBathtub';
+import ProductWardrobe from '../Products/ProductWardrobe';
+import ProductCustom from '../Products/ProductCustom';
+import ProductKitchen from '../Products/ProductKitchen';
 const Top = createMaterialTopTabNavigator();
 const ProductList = ({ }) => {
 
@@ -18,10 +18,10 @@ const ProductList = ({ }) => {
                     tabBarStyle: { backgroundColor: 'powderblue' },
                 }}
             >
-                <Top.Screen name='Clothes' component={ProductSkirt} />
-                <Top.Screen name='Bra' component={ProductBra} />
-                <Top.Screen name='Shoes' component={ProductShoes} />
-                <Top.Screen name='SkinFace' component={ProductFace} />
+                <Top.Screen name='Wardrobe' component={ProductWardrobe} />
+                <Top.Screen name='Kitchen cabinets' component={ProductKitchen} />
+                <Top.Screen name='Custom cabinets' component={ProductCustom} />
+                <Top.Screen name='Bathtup' component={ProductBathtub} />
             </Top.Navigator>
         </View>
     )

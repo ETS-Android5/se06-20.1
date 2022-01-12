@@ -6,10 +6,10 @@ import Splash from './screens/Splash';
 import LoginProduct from './screens/LoginProduct';
 import HomeStackNavigation from './components/HomeStackNavigation';
 import ProductInfomation from './Products/ProductInfomation';
-import Clothing from './Products/Infoclothing'
-import Bra from './Products/InfoBra';
-import Shoes from './Products/InfoShoes';
-import Face from './Products/InfoFace';
+import infoWardrobe from './Products/InfoWardrobe'
+import infoKitchenCabinets from './Products/InfoKitchenCabinet';
+import infoCustomCabinets from './Products/InfoCustomCabinets';
+import infoBathtub from './Products/InfoBathtub';
 
 
 export default function App() {
@@ -21,10 +21,10 @@ export default function App() {
         <Stack.Screen name='LoginProduct' component={LoginProduct} options={{ header: () => null }} />
         <Stack.Screen name='HomeStackNavigation' component={HomeStackNavigation} options={{ header: () => null }} />
         <Stack.Screen name='ProductInfomation' component={ProductInfomation} options={{ header: () => null }} />
-        <Stack.Screen name='Clothing' component={Clothing} options={{ header: () => null }} />
-        <Stack.Screen name='Productbar' component={Bra} options={{ header: () => null }} />
-        <Stack.Screen name='ProductShoes' component={Shoes} options={{ header: () => null }} />
-        <Stack.Screen name='ProductFace' component={Face} options={{ header: () => null }} />
+        <Stack.Screen name='infoWardrobe' component={infoWardrobe} options={{ header: () => null }} />
+        <Stack.Screen name='infoKitchen' component={infoKitchenCabinets} options={{ header: () => null }} />
+        <Stack.Screen name='infoCustom' component={infoCustomCabinets} options={{ header: () => null }} />
+        <Stack.Screen name='infoBathtub' component={infoBathtub} options={{ header: () => null }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

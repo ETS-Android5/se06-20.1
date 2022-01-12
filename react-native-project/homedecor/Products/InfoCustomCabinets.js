@@ -5,7 +5,7 @@ import {
     , Dimensions, Alert
 } from 'react-native'
 const { width, height } = Dimensions.get('window')
-const Face = ({ route, navigation }) => {
+const infoCustomCabinets = ({ route, navigation }) => {
     const { item } = route.params
     return (
         <SafeAreaView style={styles.container}>
@@ -29,11 +29,10 @@ const Face = ({ route, navigation }) => {
                     Quantity: {item.quantity}
                 </Text>
                 <Text style={styles.textsize}>
-                    Size: {item.size} Full set
+                    Size: {item.size} 28 29 30 31 32 33 35 36 37 39 40 41 42
                 </Text>
                 <Text style={styles.textcolor}>
-
-                    Manufacturer: {item.color} Japan Korea VietNam US UK China
+                    Color: {item.color} Red Blue Yellow Pink White Black
                 </Text>
             </View>
             <TouchableOpacity style={styles.button}
@@ -44,9 +43,8 @@ const Face = ({ route, navigation }) => {
                         ])
                     },
 
-                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua chứ không xem chùa :)') }
-                ])}
-            >
+                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua ') }
+                ])}>
                 <Text>
                     BUY NOW --{'>'}
                 </Text>
@@ -56,7 +54,7 @@ const Face = ({ route, navigation }) => {
     )
 }
 
-export default Face
+export default infoCustomCabinets
 const styles = StyleSheet.create({
     container: {
         flex: 1,

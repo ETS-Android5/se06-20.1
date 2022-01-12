@@ -5,7 +5,7 @@ import {
     , Dimensions, Alert
 } from 'react-native'
 const { width, height } = Dimensions.get('window')
-const Bra = ({ route, navigation }) => {
+const infoKitchenCabinets = ({ route, navigation }) => {
     const { item } = route.params
     return (
         <SafeAreaView style={styles.container}>
@@ -43,7 +43,7 @@ const Bra = ({ route, navigation }) => {
                         ])
                     },
 
-                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua chứ không xem chùa :)') }
+                    { text: 'Không', onPress: () => alert('Cảm ơn bạn đã đến với shop mong lần sau bạn sẽ mua') }
                 ])}>
                 <Text>
                     BUY NOW --{'>'}
@@ -54,7 +54,7 @@ const Bra = ({ route, navigation }) => {
     )
 }
 
-export default Bra
+export default infoKitchenCabinets
 const styles = StyleSheet.create({
     container: {
         flex: 1,

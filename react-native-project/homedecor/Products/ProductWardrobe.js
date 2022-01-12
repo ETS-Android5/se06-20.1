@@ -7,7 +7,7 @@ import {
 const { width, height } = Dimensions.get('window');
 
 
-const ProductSkirt = ({ navigation }) => {
+const ProductWardrobe = ({ navigation }) => {
     const [dataclothing, setDataClothing] = useState([]);
     const [datasearch, setDataSearch] = useState([]);
     const [issearch, setIssearch] = useState(false);
@@ -30,7 +30,7 @@ const ProductSkirt = ({ navigation }) => {
         }
     }
     useEffect(() => {
-        const urlClothing = 'https://huynhpt.github.io/Clothing.json';
+        const urlClothing = 'https://612ced09ab461c00178b5fbb.mockapi.io/api/users/wardrobe';
         fetch(urlClothing).then(resclo => resclo.json())
             .then(responclo => { setDataClothing(responclo) })
             .catch(error => ' lỗi không có dữ liệu')
@@ -54,7 +54,7 @@ const ProductSkirt = ({ navigation }) => {
                     />
                     <TouchableOpacity
                         onPress={() => {
-                            navigation.navigate("Clothing", { item })
+                            navigation.navigate("infoWardrobe", { item })
                         }}
                     >
                         <Text
@@ -98,7 +98,7 @@ const ProductSkirt = ({ navigation }) => {
     );
 };
 
-export default ProductSkirt
+export default ProductWardrobe
 const styles = StyleSheet.create({
     container: {
         flex: 1,

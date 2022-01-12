@@ -6,10 +6,29 @@ import {
 } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 const { width, height } = Dimensions.get('window');
-const ProductFace = ({ navigation }) => {
+const ProductKitchen = ({ navigation }) => {
     const [dataclothing, setDataClothing] = useState([]);
+    const [datasearch, setDataSearch] = useState([]);
+    const [issearch, setIssearch] = useState(false);
+    const [search, setSearch] = useState(false);
+    const TimKiem = (text) => {
+        if (text.trim().length != 0) {
+            const newData = dataclothing.filter((item) => {
+                const itemData = item.name ? item.name.toUpperCase() : ''.toUpperCase()
+                const textData = text.toUpperCase();
+                return itemData.indexOf(textData) > -1;
+            });
+            setDataSearch(newData);
+            setIssearch(true);
+            setSearch(text);
+
+        } else {
+            setSearch(text);
+            setIssearch
+        }
+    }
     useEffect(() => {
-        const urlClothing = 'https://612ced09ab461c00178b5fbb.mockapi.io/api/users/test';
+        const urlClothing = 'https://huynhpt.github.io/Bra.json';
         fetch(urlClothing).then(resclo => resclo.json())
             .then(responclo => { setDataClothing(responclo) })
             .catch(error => ' lỗi không có dữ liệu')
@@ -33,7 +52,7 @@ const ProductFace = ({ navigation }) => {
                     />
                     <TouchableOpacity
                         onPress={() => {
-                            navigation.navigate('ProductFace', { item })
+                            navigation.navigate("infoKitchenCabinets", { item })
                         }}
                     >
                         <Text
@@ -55,8 +74,10 @@ const ProductFace = ({ navigation }) => {
         <View style={styles.container}>
             <View style={styles.viewSearch}>
                 <TextInput
+                    value={search}
                     placeholder={'Tìm Kiếm'}
                     style={styles.textsearch}
+                    onChangeText={(text) => TimKiem(text)}
                 />
                 <TouchableOpacity>
                     <Ionicons name="search-circle-outline" size={45} color="black" />
@@ -64,17 +85,18 @@ const ProductFace = ({ navigation }) => {
             </View>
             <View style={styles.viewFlas}>
                 <FlatList
-                    data={dataclothing}
+                    data={issearch ? datasearch : dataclothing}
                     renderItem={renderItemClo}
                     keyExtractor={item => `key-${item.id}`}
                     numColumns={2}
+                    extraData={issearch}
                 />
             </View>
         </View>
     );
 }
 
-export default ProductFace
+export default ProductKitchen
 const styles = StyleSheet.create({
     container: {
         flex: 1,
