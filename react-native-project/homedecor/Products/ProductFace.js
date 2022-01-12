@@ -9,7 +9,7 @@ const { width, height } = Dimensions.get('window');
 const ProductFace = ({ navigation }) => {
     const [dataclothing, setDataClothing] = useState([]);
     useEffect(() => {
-        const urlClothing = 'https://huynhpt.github.io/Facebody.json';
+        const urlClothing = 'https://612ced09ab461c00178b5fbb.mockapi.io/api/users/test';
         fetch(urlClothing).then(resclo => resclo.json())
             .then(responclo => { setDataClothing(responclo) })
             .catch(error => ' lỗi không có dữ liệu')
