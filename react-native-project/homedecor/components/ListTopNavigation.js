@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, Dimensions } from 'react-native'
+import { View, Text, Dimensions, ScrollView } from 'react-native'
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
 import ProductBathtub from '../Products/ProductBathtub';
 import ProductWardrobe from '../Products/ProductWardrobe';
@@ -10,7 +10,7 @@ const ProductList = ({ }) => {
 
 
     return (
-        <View style={{ flex: 1, marginTop: 30 }}>
+        <ScrollView  horizontal={true}  style={{ flex: 1, marginTop: 30 }}>
             <Top.Navigator
                 screenOptions={{
                     tabBarLabelStyle: { fontSize: 12 },
@@ -23,7 +23,7 @@ const ProductList = ({ }) => {
                 <Top.Screen name='Custom cabinets' component={ProductCustom} />
                 <Top.Screen name='Bathtup' component={ProductBathtub} />
             </Top.Navigator>
-        </View>
+        </ScrollView>
     )
 }
 

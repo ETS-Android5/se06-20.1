@@ -17,7 +17,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='Splash' component={Splash} options={{ header: () => null }} />
+        {/* <Stack.Screen name='Splash' component={Splash} options={{ header: () => null }} /> */}
         <Stack.Screen name='LoginProduct' component={LoginProduct} options={{ header: () => null }} />
         <Stack.Screen name='HomeStackNavigation' component={HomeStackNavigation} options={{ header: () => null }} />
         <Stack.Screen name='ProductInfomation' component={ProductInfomation} options={{ header: () => null }} />

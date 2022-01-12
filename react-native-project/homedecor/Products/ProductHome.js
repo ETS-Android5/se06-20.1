@@ -12,13 +12,13 @@ const ProductHome = ({ navigation }) => {
     const [datalist, setDataList] = useState([]);
     const [dataproduct, setDataProduct] = useState([]);
     useEffect(() => {
-        const ApiUrl = 'https://6161aa3b37492500176313e4.mockapi.io/apiproduct/swaper';
+        const ApiUrl = 'https://61df53d20f3bdb0017934a35.mockapi.io/se06/swaper';
         fetch(ApiUrl).then(res => res.json())
             .then(resJson => { setData(resJson) })
             .catch(error => { 'lỗi không có dữ liệu' })
     }, [])
     useEffect(() => {
-        const urllist = 'https://6161aa3b37492500176313e4.mockapi.io/apiproduct/Apilist';
+        const urllist = 'https://61df53d20f3bdb0017934a35.mockapi.io/se06/rcm';
         fetch(urllist).then(reslist => reslist.json())
             .then(repoonselist => { setDataList(repoonselist) })
             .catch(error => { 'lỗi không có dữ liệu' })
@@ -48,7 +48,7 @@ const ProductHome = ({ navigation }) => {
         );
     };
     useEffect(() => {
-        const urlproduct = 'https://6161aa3b37492500176313e4.mockapi.io/apiproduct/ListProduct';
+        const urlproduct = 'https://61df53d20f3bdb0017934a35.mockapi.io/se06/list';
         fetch(urlproduct)
             .then(reps => reps.json())
             .then(reponproduct => { setDataProduct(reponproduct) })

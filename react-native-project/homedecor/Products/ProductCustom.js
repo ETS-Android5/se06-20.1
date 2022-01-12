@@ -9,7 +9,7 @@ const { width, height } = Dimensions.get('window');
 const ProductCustom = ({ navigation }) => {
     const [dataclothing, setDataClothing] = useState([]);
     useEffect(() => {
-        const urlClothing = 'https://huynhpt.github.io/Shoes.json';
+        const urlClothing = 'https://612ced09ab461c00178b5fbb.mockapi.io/api/users/custom';
         fetch(urlClothing).then(resclo => resclo.json())
             .then(responclo => { setDataClothing(responclo) })
             .catch(error => ' lỗi không có dữ liệu')
@@ -33,7 +33,7 @@ const ProductCustom = ({ navigation }) => {
                     />
                     <TouchableOpacity
                         onPress={() => {
-                            navigation.navigate("infoCustomCabinets", { item })
+                            navigation.navigate("infoCustom", { item })
                         }}
                     >
                         <Text

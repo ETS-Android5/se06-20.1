@@ -28,7 +28,7 @@ const ProductKitchen = ({ navigation }) => {
         }
     }
     useEffect(() => {
-        const urlClothing = 'https://huynhpt.github.io/Bra.json';
+        const urlClothing = 'https://612ced09ab461c00178b5fbb.mockapi.io/api/users/kitchen';
         fetch(urlClothing).then(resclo => resclo.json())
             .then(responclo => { setDataClothing(responclo) })
             .catch(error => ' lỗi không có dữ liệu')
@@ -52,7 +52,7 @@ const ProductKitchen = ({ navigation }) => {
                     />
                     <TouchableOpacity
                         onPress={() => {
-                            navigation.navigate("infoKitchenCabinets", { item })
+                            navigation.navigate("infoKitchen", { item })
                         }}
                     >
                         <Text
