@@ -14,10 +14,10 @@ Tìm hiểu lập trình React-Native, xây dựng ứng dụng thương mại �
 
 1. Tìm hiểu về lập trình di động và lập trình react-native
 	## :a. Tìm hiểu lập trình di động 
-		i. Các khái niệm trong lập trình di dộng 
-		ii. Xu hướng phát triển lập trình di động 
-		iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
-		iv. Các nền tảng lập trình di đông.
+		######i. Các khái niệm trong lập trình di dộng 
+		######ii. Xu hướng phát triển lập trình di động 
+		######iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
+		######iv. Các nền tảng lập trình di đông.
 
 	b. Tìm hiểu lập trình react-native 
 		i. Các khái niệm trong react-native. 
