@@ -3,13 +3,13 @@
 Bài tập cuối kì môn Công nghệ phần mềm 2021.
 - Trường: Đại Học Khoa học Tự Nhiên - Đại học Quốc Gia Hà Nội.
 - Khoa: Toán - Cơ - Tin học.
-🔷 Thành viên nhóm
+## :large_blue_diamond:🔷 Thành viên nhóm
 1) [Lê Tú Anh]
 2) [Phạm Văn Cường]
 3) [Nguyễn Đức Anh]
 4) [Đỗ Huy Hoàng]
 5) [Vũ Huy Hải]
-🔷Đề Bài:
+## :large_blue_diamond:🔷Đề Bài:
 Tìm hiểu lập trình React-Native, xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 
 1. Tìm hiểu về lập trình di động và lập trình react-native
