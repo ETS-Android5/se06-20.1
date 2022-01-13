@@ -1,4 +1,4 @@
-Báo cáo ti?n d? nhóm se06-20.1 tu?n 3
+Báo cáo tiến độ nhóm se06-20.1 tuần 3
 1. Ðã làm :  
 Tìm hiểu Wireframe, Mockup, Prototype
 Tìm hiểu các style, các hàm trong javascript ,react native
