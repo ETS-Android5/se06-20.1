@@ -12,23 +12,23 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 ## :large_blue_diamond:Đề Bài:
 ## Tìm hiểu lập trình React-Native, xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất:
 
-## 1. Tìm hiểu về lập trình di động và lập trình react-native
-	a. Tìm hiểu lập trình di động 
+## 1. Tìm hiểu về lập trình di động và lập trình react-native 
+	a. Tìm hiểu lập trình di động -------- Cường
 		i. Các khái niệm trong lập trình di dộng 
 		ii. Xu hướng phát triển lập trình di động 
 		iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
 		iv. Các nền tảng lập trình di đông.
 
-	b. Tìm hiểu lập trình react-native 
+	b. Tìm hiểu lập trình react-native -------- Đức Anh
 		i. Các khái niệm trong react-native. 
 		ii. Các chức năng chính, cơ chế hoạt động, thư viện ( redux,firebase, google…). 
 		iii. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios). 
 		iv. Ưu điểm nhược điểm v. Xu thế lập trình react-native hiện tại.
 
-	c. So sánh lập trình react-native với các nền tảng khác
+	c. So sánh lập trình react-native với các nền tảng khác ------Tú Anh
 
 ## 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
-	a. Ý tưởng và mô tả hệ thống thương mại điện tử 
+	a. Ý tưởng và mô tả hệ thống thương mại điện tử ----- Tú anh
 	b. Các thành phần trong hệ thống và chức năng 
 		 i. Xây dựng website quản trị sản phẩm(frame Yii2, php, mysql) hoặc sử dụng nền tảng firebase.
 			1. Đăng nhập cho quản trị viên
