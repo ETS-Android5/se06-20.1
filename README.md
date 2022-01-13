@@ -1,9 +1,9 @@
 
-## :large_blue_diamond: Giới thiệu.
+## :large_blue_diamond: Giới thiệu:
 Bài tập cuối kì môn Công nghệ phần mềm 2021.
 - Trường: Đại Học Khoa học Tự Nhiên - Đại học Quốc Gia Hà Nội.
 - Khoa: Toán - Cơ - Tin học.
-## :large_blue_diamond: Thành viên nhóm.
+## :large_blue_diamond: Thành viên nhóm:
 1) [Lê Tú Anh]
 2) [Phạm Văn Cường]
 3) [Nguyễn Đức Anh]
