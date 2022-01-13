@@ -30,12 +30,12 @@ Tìm hiểu lập trình React-Native, xây dựng ứng dụng thương mại �
 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 	## a. Ý tưởng và mô tả hệ thống thương mại điện tử 
 	## b. Các thành phần trong hệ thống và chức năng 
-		## i. Xây dựng website quản trị sản phẩm(frame Yii2, php, mysql) hoặc sử dụng nền tảng firebase.
+		 i. Xây dựng website quản trị sản phẩm(frame Yii2, php, mysql) hoặc sử dụng nền tảng firebase.
 			1. Đăng nhập cho quản trị viên
 			2. Quản lý sản phẩm
 			3. Quản lý đơn hàng
 			4. Quản lý thông báo 
-		## ii. Xây dựng App mobile (phần chính)
+		 ii. Xây dựng App mobile (phần chính)
 			1. Đăng nhập đăng ký, quản lý thông tin cá nhân.
 			2. Xem tìm kiếm sản phẩm
 			3. Đặt hàng quản lý đơn hàng
