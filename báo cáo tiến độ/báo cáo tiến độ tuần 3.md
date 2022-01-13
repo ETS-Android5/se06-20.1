@@ -1,7 +1,7 @@
-B·o c·o ti?n d? nhÛm se06-20.1 tu?n 3
-1. –„ l‡m :  
-TÏm hi?u Wireframe, Mockup, Prototype
-TÏm hi?u c·c style, c·c h‡m trong javascript ,react native
-Vi?t giao di?n login v?i navigation 
-KhÛ khan : thi?t k? giao di?n, x? lÌ logic login
-D? d?nh : x? lÌ nh?ng khÛ khan v‡ ti?p t?c l‡m giao di?n
+B√°o c√°o ti?n d? nh√≥m se06-20.1 tu?n 3
+1. √ê√£ l√†m :  
+T√¨m hi·ªÉu Wireframe, Mockup, Prototype
+T√¨m hi·ªÉu c√°c style, c√°c h√†m trong javascript ,react native
+Vi·∫øt giao di·ªán login v?i navigation 
+Kh√≥ khan : thi·∫øt k·∫ø giao di·ªán, x·ª≠ l√≠ logic login
+D? d?nh : x·ª≠ l√≠ nh·ªØng kh√≥ khƒÉn v√† ti·∫øp t·ª•c l√†m giao di·ªán
