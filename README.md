@@ -25,7 +25,7 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 		iii. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios). 
 		iv. Ưu điểm nhược điểm v. Xu thế lập trình react-native hiện tại.
 
-	c. So sánh lập trình react-native với các nền tảng khác ------ Hải
+	c. So sánh lập trình react-native với các nền tảng khác ------ Hảizzzz
 
 ## 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 	a. Ý tưởng và mô tả hệ thống thương mại điện tử ----- Hoàng
