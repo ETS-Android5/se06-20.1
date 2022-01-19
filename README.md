@@ -84,10 +84,10 @@ AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pok
 ### iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
 ### iv. Các nền tảng lập trình di đông.
 
-	b. Tìm hiểu lập trình react-native -------- Đức Anh
-		i. Các khái niệm trong react-native. 
+## B. Tìm hiểu lập trình react-native
+		**i. Các khái niệm trong react-native.**
 		
-c Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
+• Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
 		
 • Props : là viết tắt của Properties. Một điều mà bạn cần phải nhớ khi sử dụng props đó là không bao giờ nên thay đổi giá trị của nó, hay nói cách khác, đây là một dữ liệu cố định, bất biến.
 
@@ -95,11 +95,29 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 • State : State thì hoạt động khác với Props. State là dữ liệu nội bộ của một Component, trong khi props là dữ liệu được truyền cho Component. Chính vì vậy chúng ta hoàn toàn có thể thay đổi state, và coi nó là một kiểu dữ liệu có thể thay đổi. Vì đặc điểm này nên chúng ta hay sử dụng State để thay đổi dữ liệu của view, binding data lại view khi có thay đổi. Nhưng chúng ta không dùng this.state để gán lại giá trị thay đổi cho nó, mà chúng ta sẽ dùng this.setState. Function này sẽ trigger cho class rằng hãy render lại component và các component con của nó, còn this.state thì không.
 
-		ii. Các thư viện.
+		**ii. Các thư viện.**
 		
 • Redux
 
-Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của ngôn ngữ Elm kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React.
+Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của ngôn ngữ Elm kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React.  Nó giúp các ứng dụng hoạt động ổn định, chạy trong các môi trường khác nhau (client, server, and native) và dễ kiểm tra.
+
+Redux có 4 thành phần như sau:
+
+1. Actions
+
+Action là nơi mang các thông tin gửi từ ứng dụng đến Store, mô tả chúng ta muốn làm cái gì với cái store này. Các thông tin này là 1 object mô tả những gì đã xảy ra. Action gồm 2 phần là type (kiểu mô tả action), và giá trị tham số truyền lên.
+
+2. Reducers
+
+Action có nhiệm vụ mô tả những gì xảy ra nhưng lại không chỉ rõ phần state nào của response thay đổi và thay đổi như thế nào. Việc này sẽ do Reducer đảm nhiệm. Reducer nhận 2 tham số: state cũ và thông tin action được gửi lên, sau đó nó biến đổi trả ra một state mới, không làm thay đổi state cũ.
+
+3. Store
+
+Store là 1 object lưu trữ tất cả state của ứng dụng, cho phép truy cập state qua getState(), update state qua dispatch(action), đăng kí listener qua subscribe(listener). Trong store nó có Dispatcher, Reducer, State. Dispatcher là phần quản lý middleware, thường dùng để gọi API, log,... Sau khi dispatch xong thì nó đẩy xuống Reducer, reducer này đơn giản là 1 function nhận vào 2 thứ: state cũ và thông tin action, biến đổi cho ra state mới. Chính nhờ cái này mà redux có tính predictable, tức là cùng 1 state, cùng 1 action thì nó luôn luôn cho ra 1 state mới giống nhau.
+
+4. View
+
+View là phần giao diện, hiển thị giao diện thông qua state của store.
 
 		iii. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios). 
 		iv. Ưu điểm nhược điểm v. Xu thế lập trình react-native hiện tại.
