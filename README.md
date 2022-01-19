@@ -30,13 +30,12 @@ Vì vậy nếu muốn thiết bị cho ra kết quả của phép nhân từ 2 
 
 Lập trình cho các thiết bị di động như Mobile Phones, Portable Devices, Mobility Devices...Được gọi là lập trình di động.
 
-Ngôn ngữ để sử dụng lập trình cho những thiết bị di động hỗ trợ MIDP/CLDC được gọi là Java J2ME(Java 2 Micro Edition) và nó khác với J2SE , J2EE ... ở chỗ nó chỉ có những API và cơ chế tương thích với MIDP/CLDC và vì thế mới chạy được trên thiét bị hỗ trợ MIDP/CLDC.
+Lập trình ứng dụng di động là viết ngôn ngữ lập trình (code) để xây dựng các tiện ích, chương trình, app, hệ điều hành trên mobile. Hiện nay, có 2 hệ điều hành trên Smartphone phổ biến nhất là Android và IOS.
 
-Bên cạnh đó còn có Android SDK (Java Dalvik), iPhone SDK (iPhone OS) là những Software Development Kit dùng đề phát triển phần mềm cho các thiết bị chạy hệ điều hành Android hay iPhone OS.
+Lập trình ứng dụng di động mang đến một không gian mua sắm, tin tức, giải trí thu nhỏ ngay trên Smartphone của mỗi cá nhân.
 
-Với loại này thì syntax, API, library và môi trường hoàn toàn khác với J2ME, và muốn lập trình cho Android hay iPhone OS... thì bắt buộc phải xem tài liệu về nó chứ không thể đem source code của J2ME rồi bắt chạy trên Android hay iPhone và ngược lại.
 
-		ii. Xu hướng phát triển lập trình di động 		
+		ii. Xu hướng phát triển lập trình di động 
 		iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
 		iv. Các nền tảng lập trình di đông.
 
