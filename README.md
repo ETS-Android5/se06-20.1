@@ -13,8 +13,8 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 ## Tìm hiểu lập trình React-Native, xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất:
 
 ## 1. Tìm hiểu về lập trình di động và lập trình react-native 
-	#### a. Tìm hiểu lập trình di động -------- Cường
-		#### i. Các khái niệm trong lập trình di dộng 
+	 a. ## Tìm hiểu lập trình di động -------- Cường
+		## i. Các khái niệm trong lập trình di dộng 
 		
 • #### Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :
 
