@@ -21,7 +21,8 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 
 	b. Tìm hiểu lập trình react-native -------- Đức Anh
 		i. Các khái niệm trong react-native. 
-		• Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
+		
+• Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
 		
 • Props : là viết tắt của Properties. Một điều mà bạn cần phải nhớ khi sử dụng props đó là không bao giờ nên thay đổi giá trị của nó, hay nói cách khác, đây là một dữ liệu cố định, bất biến.
 
