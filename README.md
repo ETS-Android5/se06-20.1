@@ -34,8 +34,6 @@ Bên cạnh đó còn có Android SDK (Java Dalvik), iPhone SDK (iPhone OS) là 
 Với loại này thì syntax, API, library và môi trường hoàn toàn khác với J2ME, và muốn lập trình cho Android hay iPhone OS... thì bắt buộc phải xem tài liệu về nó chứ không thể đem source code của J2ME rồi bắt chạy trên Android hay iPhone và ngược lại.
 
 		ii. Xu hướng phát triển lập trình di động 		
-
-•
 		iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
 		iv. Các nền tảng lập trình di đông.
 
