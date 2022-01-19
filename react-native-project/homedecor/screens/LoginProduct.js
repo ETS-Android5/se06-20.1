@@ -77,13 +77,7 @@ const LoginProduct = ({ navigation }) => {
 export default LoginProduct;
 
 const styles = StyleSheet.create({
-    container: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: 20,
-        paddingBottom: 50,
-        backgroundColor: '#ffffff',
-    },
+
     logo: {
         height: 250,
         width: 250,
