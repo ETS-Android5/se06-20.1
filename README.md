@@ -36,7 +36,7 @@ Lập trình ứng dụng di động là viết ngôn ngữ lập trình (code) 
 Lập trình ứng dụng di động mang đến một không gian mua sắm, tin tức, giải trí thu nhỏ ngay trên Smartphone của mỗi cá nhân.
 
 
-### ii. Xu hướng phát triển lập trình di động:**
+### ii. Xu hướng phát triển lập trình di động:
 		
 Khi Điện thoại thông minh được “phổ cập” thì sự phát triển của Mobile App – Ứng dụng di động cũng là một điều tất yếu. Ngày càng có nhiều ứng dụng di động ra đời. Ta có thể kể đến các app như mạng xã hội, mua sắm, ví điện tử cho đến các ứng dụng về sức khỏe, đặt hàng… 
 
