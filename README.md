@@ -19,7 +19,9 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 • Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :
 
 Công nghệ thông tin: là một ngành sử dụng hệ thống các thiết bị và máy tính, bao gồm phần cứng, phần mềm, để cung cấp giải pháp xử lý thông tin trên nền công nghệ cho các cá nhân, tổ chức có yêu cầu.
+
 Ngày nay, với sự bùng nổ dân số, cùng với sự phát triển công nghệ thông tin như vũ bão, máy tính hay laptop dần được con người thu nhỏ lại nhưng vẫn đảm bảo có đầy đủ các chức năng như một máy tính cá nhân. Vì vậy, các dòng điện thoại smartphone lần lượt ra đời, có thể kể đến một số thiết bị di động nổi tiếng như IPhone 5S xài hệ điều hành iOS của hãng Apple, Samsung Galaxy S4 xài hệ điều hành Android của hãng Samsung, Nokia Lumia 930 xài hệ điều hành Windows Phone của Microsoft, …. Và để tăng số lượng người sử dụng smartphone, download ứng dụng từ AppStore thì các hãng thiết bị di động nổi tiếng trên vô Công nghệ thông tin cùng khuyến khích các nhà lập trình viên lên ý tưởng và làm ra một ứng dụng dựa trên ý tưởng của mình. Từ đó, môn học lập trình trên thiết bị di động (TBDĐ) ra đời để các nhà lập trình viên tạo ra được nhiều ứng dụng đa dạng đáp ứng được nhu cầu của nhiều tầng lớp người sử dụng.
+
 Lập trình cho các thiết bị di động có thể hiểu đơn giản và khái quát như sau:
 
 Trước hết thế nào là lập trình và lập trình là gì thì có thể hiểu đơn giàn là thiết bị máy móc (Devices) không tự biết phải làm gì đề phục vụ một nhu cầu nào đó của con người. Nó chỉ có thể làm những gì được định sẵn với khả năng thực hiện nhanh và chính xác hơn con người (Keeper sẽ nói về AI - Artificial Intelligence sau, AI = Trí tuệ nhân tạo, khái niệm giúp máy móc thiết bị tự quyết định và tự đưa ra giải pháp tùy tình huống mà không cần con người vạch sẵn)
