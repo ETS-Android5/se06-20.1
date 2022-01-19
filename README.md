@@ -17,13 +17,13 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 ## a.Tìm hiểu lập trình di động -------- Cường
 ### i. Các khái niệm trong lập trình di dộng 
 		
-• **Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :
+• **Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :**
 
 Công nghệ thông tin: là một ngành sử dụng hệ thống các thiết bị và máy tính, bao gồm phần cứng, phần mềm, để cung cấp giải pháp xử lý thông tin trên nền công nghệ cho các cá nhân, tổ chức có yêu cầu.
 
 Ngày nay, với sự bùng nổ dân số, cùng với sự phát triển công nghệ thông tin như vũ bão, máy tính hay laptop dần được con người thu nhỏ lại nhưng vẫn đảm bảo có đầy đủ các chức năng như một máy tính cá nhân. Vì vậy, các dòng điện thoại smartphone lần lượt ra đời, có thể kể đến một số thiết bị di động nổi tiếng như IPhone 5S xài hệ điều hành iOS của hãng Apple, Samsung Galaxy S4 xài hệ điều hành Android của hãng Samsung, Nokia Lumia 930 xài hệ điều hành Windows Phone của Microsoft, …. Và để tăng số lượng người sử dụng smartphone, download ứng dụng từ AppStore thì các hãng thiết bị di động nổi tiếng trên vô Công nghệ thông tin cùng khuyến khích các nhà lập trình viên lên ý tưởng và làm ra một ứng dụng dựa trên ý tưởng của mình. Từ đó, môn học lập trình trên thiết bị di động (TBDĐ) ra đời để các nhà lập trình viên tạo ra được nhiều ứng dụng đa dạng đáp ứng được nhu cầu của nhiều tầng lớp người sử dụng.
 
-**Lập trình cho các thiết bị di động có thể hiểu đơn giản và khái quát như sau:
+**Lập trình cho các thiết bị di động có thể hiểu đơn giản và khái quát như sau:**
 
 Trước hết thế nào là lập trình và lập trình là gì thì có thể hiểu đơn giàn là thiết bị máy móc (Devices) không tự biết phải làm gì đề phục vụ một nhu cầu nào đó của con người. Nó chỉ có thể làm những gì được định sẵn với khả năng thực hiện nhanh và chính xác hơn con người (Keeper sẽ nói về AI - Artificial Intelligence sau, AI = Trí tuệ nhân tạo, khái niệm giúp máy móc thiết bị tự quyết định và tự đưa ra giải pháp tùy tình huống mà không cần con người vạch sẵn)
 
@@ -36,25 +36,25 @@ Lập trình ứng dụng di động là viết ngôn ngữ lập trình (code) 
 Lập trình ứng dụng di động mang đến một không gian mua sắm, tin tức, giải trí thu nhỏ ngay trên Smartphone của mỗi cá nhân.
 
 
-### ii. Xu hướng phát triển lập trình di động 
+### ii. Xu hướng phát triển lập trình di động:**
 		
 Khi Điện thoại thông minh được “phổ cập” thì sự phát triển của Mobile App – Ứng dụng di động cũng là một điều tất yếu. Ngày càng có nhiều ứng dụng di động ra đời. Ta có thể kể đến các app như mạng xã hội, mua sắm, ví điện tử cho đến các ứng dụng về sức khỏe, đặt hàng… 
 
-**Xu hướng phát triển Mobile App hiện nay:
+**Xu hướng phát triển Mobile App hiện nay:**
 
 Giống như bất kỳ “trend” nào, xu hướng phát triển Mobile App cũng luôn biến đổi. Vì vậy, doanh nghiệp cũng phải nhanh nhạy nắm bắt và điều chỉnh phù hợp. Một số xu hướng phát triển Mobile App năm 2021 đã xuất hiện một thời gian, nhưng một số khác lại là những xu hướng mới nhất.
 
-**Cloud-Native:
+**Cloud-Native:**
 
 Cloud native là một cách tiếp cận để xây dựng Mobile App bằng cách khai thác các lợi thế của mô hình điện toán đám mây. Cloud-native applications là các ứng dụng được viết trên môi trường cloud, thay vì xây dựng trên các trung tâm dữ liệu truyền thống. Mọi thứ trên các ứng dụng này đều do các nhà cung cấp giải pháp Cloud như AWS, Google Cloud hoặc Azure xử lý.
 
 Cloud-native mang đến nhiều lợi ích cho các nhà phát triển và doanh nghiệp. Ví dụ như Google Cloud serverless tooling cho phép mở rộng quy mô tự động tùy thuộc vào lưu lượng truy cập trang web.
 
-**Internet of Things:
+**Internet of Things:**
 
 Theo dự báo, thị trường IoT ở Mỹ đến năm 2022 sẽ vượt 500 tỷ USD. Và phần lớn thị phần này thuộc về phân khúc điện tử tiêu dùng. Công nghệ IoT đang tác động đến cách con người tương tác với nhau. Đồng thời, nó còn tác động mạnh mẽ đến cách người ta sống trong nhà của họ bằng việc tương tác với các thiết bị gia đình. Có thể thấy rằng, lĩnh vực tác động nổi bật nhất của IoT là nhà thông minh. Số người dùng smartphone để điều khiển thiết bị gia đình thông qua các ứng dụng trên điện thoại ngày càng tăng. Các dự báo cho biết đến năm 2030 sẽ có khoảng 50 tỷ thiết bị IoT được sử dụng trên khắp thế giới. Nghĩa là, một mạng lưới khổng lồ giữa các thiết bị sẽ được tạo ra và kết nối với nhau. Hơn nữa, IoT có tiềm năng chia sẻ dữ liệu, nó chắc chắn sẽ thu hút sự chú ý của ngành công nghiệp ứng dụng.
 
-**Ví điện tử – Mobile Wallet:
+**Ví điện tử – Mobile Wallet:**
 
 Ví điện tử đang ngày một trở nên phổ biến trong bối cảnh chuyển đổi số đang diễn ra mạnh mẽ. Ở Việt Nam, các ví điện tử như Momo, ShopeePay, ZaloPay… cũng đang trong quá trình tiếp cận và mở rộng thị trường. Ví điện tử mang đến sự tiện lợi, dễ sử dụng, tốc độ xử lý nhanh, nhiều ưu đãi… Vì vậy, người dùng đang dần chấp nhận loại hình thanh toán mới này. Chính vì thế, tiềm năng phát triển của thị trường vẫn còn khá lớn. Tuy nhiên, các nhà phát triển cũng cần cân nhắc về yếu tố bảo mật, rào cản lớn nhất đối với người dùng.
 
@@ -72,11 +72,11 @@ Tương lai của AI sẽ được ứng dụng để:
 	
 	Dự báo
 	
-**Chatbots:
+**Chatbots:**
 
 Chatbots đã và đang “len lỏi” vào cuộc sống hàng ngày của chúng ta. Những câu hỏi thường gặp như thời gian mở cửa, menu, giá dịch vụ… có thể được trả lời một cách tự động. Người bán vui vẻ vì không phải trả lời lặp lại. Người mua cũng hài lòng vì được phản hồi nhanh chóng. Ứng dụng “My Starbucks Barista” là một ví dụ thành công. Nó cho phép người dùng đặt và thanh toán qua việc giao tiếp bằng giọng nói với trợ lý ảo này. Ở Việt Nam, Chatbots được ứng dụng phổ biến với Facebook Messenger hay các trang TMDT.
 
-**Công nghệ thực tế ảo – thực tế tăng cường (AR-VR):
+**Công nghệ thực tế ảo – thực tế tăng cường (AR-VR):**
 
 AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pokemon Go! là cú hích lớn cho việc đưa AR vào Mobile game. Giờ đây, nó đã xuất hiện ở nhiều loại ứng dụng hơn như các app chụp ảnh, làm đẹp…
 
