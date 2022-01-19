@@ -14,10 +14,10 @@ Bài tập cuối kì môn Công nghệ phần mềm 2021.
 
 ## 1. Tìm hiểu về lập trình di động và lập trình react-native 
 
-	 a. ## Tìm hiểu lập trình di động -------- Cường
-		## i. Các khái niệm trong lập trình di dộng 
+	 a. Tìm hiểu lập trình di động -------- Cường
+		i. Các khái niệm trong lập trình di dộng 
 		
-• ## Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :
+• Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :
 
 Công nghệ thông tin: là một ngành sử dụng hệ thống các thiết bị và máy tính, bao gồm phần cứng, phần mềm, để cung cấp giải pháp xử lý thông tin trên nền công nghệ cho các cá nhân, tổ chức có yêu cầu.
 
