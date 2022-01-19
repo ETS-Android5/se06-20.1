@@ -58,7 +58,7 @@ Theo dự báo, thị trường IoT ở Mỹ đến năm 2022 sẽ vượt 500 t
 
 Ví điện tử đang ngày một trở nên phổ biến trong bối cảnh chuyển đổi số đang diễn ra mạnh mẽ. Ở Việt Nam, các ví điện tử như Momo, ShopeePay, ZaloPay… cũng đang trong quá trình tiếp cận và mở rộng thị trường. Ví điện tử mang đến sự tiện lợi, dễ sử dụng, tốc độ xử lý nhanh, nhiều ưu đãi… Vì vậy, người dùng đang dần chấp nhận loại hình thanh toán mới này. Chính vì thế, tiềm năng phát triển của thị trường vẫn còn khá lớn. Tuy nhiên, các nhà phát triển cũng cần cân nhắc về yếu tố bảo mật, rào cản lớn nhất đối với người dùng.
 
-**Trí tuệ nhân tạo (AI) & Machine Learning trong Mobile App:
+**Trí tuệ nhân tạo (AI) & Machine Learning trong Mobile App:**
 
 AI và Machine Learning đã được đưa vào trong các Mobile App. Những tính năng thường gặp có thể kể đến như Chatbots, nhận dạng khuôn mặt hay tìm kiếm bằng giọng nói. Trong tương lai gần, việc sử dụng camera có tích hợp AI, hay dịch giọng nói sẽ còn phổ biến hơn.
 
