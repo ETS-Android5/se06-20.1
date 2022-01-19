@@ -36,6 +36,50 @@ Lập trình ứng dụng di động mang đến một không gian mua sắm, ti
 
 
 		ii. Xu hướng phát triển lập trình di động 
+		
+Khi Điện thoại thông minh được “phổ cập” thì sự phát triển của Mobile App – Ứng dụng di động cũng là một điều tất yếu. Ngày càng có nhiều ứng dụng di động ra đời. Ta có thể kể đến các app như mạng xã hội, mua sắm, ví điện tử cho đến các ứng dụng về sức khỏe, đặt hàng… 
+
+Xu hướng phát triển Mobile App hiện nay:
+
+Giống như bất kỳ “trend” nào, xu hướng phát triển Mobile App cũng luôn biến đổi. Vì vậy, doanh nghiệp cũng phải nhanh nhạy nắm bắt và điều chỉnh phù hợp. Một số xu hướng phát triển Mobile App năm 2021 đã xuất hiện một thời gian, nhưng một số khác lại là những xu hướng mới nhất.
+
+Cloud-Native:
+
+Cloud native là một cách tiếp cận để xây dựng Mobile App bằng cách khai thác các lợi thế của mô hình điện toán đám mây. Cloud-native applications là các ứng dụng được viết trên môi trường cloud, thay vì xây dựng trên các trung tâm dữ liệu truyền thống. Mọi thứ trên các ứng dụng này đều do các nhà cung cấp giải pháp Cloud như AWS, Google Cloud hoặc Azure xử lý.
+
+Cloud-native mang đến nhiều lợi ích cho các nhà phát triển và doanh nghiệp. Ví dụ như Google Cloud serverless tooling cho phép mở rộng quy mô tự động tùy thuộc vào lưu lượng truy cập trang web.
+
+Internet of Things:
+
+Theo dự báo, thị trường IoT ở Mỹ đến năm 2022 sẽ vượt 500 tỷ USD. Và phần lớn thị phần này thuộc về phân khúc điện tử tiêu dùng. Công nghệ IoT đang tác động đến cách con người tương tác với nhau. Đồng thời, nó còn tác động mạnh mẽ đến cách người ta sống trong nhà của họ bằng việc tương tác với các thiết bị gia đình. Có thể thấy rằng, lĩnh vực tác động nổi bật nhất của IoT là nhà thông minh. Số người dùng smartphone để điều khiển thiết bị gia đình thông qua các ứng dụng trên điện thoại ngày càng tăng. Các dự báo cho biết đến năm 2030 sẽ có khoảng 50 tỷ thiết bị IoT được sử dụng trên khắp thế giới. Nghĩa là, một mạng lưới khổng lồ giữa các thiết bị sẽ được tạo ra và kết nối với nhau. Hơn nữa, IoT có tiềm năng chia sẻ dữ liệu, nó chắc chắn sẽ thu hút sự chú ý của ngành công nghiệp ứng dụng.
+
+Ví điện tử – Mobile Wallet:
+
+Ví điện tử đang ngày một trở nên phổ biến trong bối cảnh chuyển đổi số đang diễn ra mạnh mẽ. Ở Việt Nam, các ví điện tử như Momo, ShopeePay, ZaloPay… cũng đang trong quá trình tiếp cận và mở rộng thị trường. Ví điện tử mang đến sự tiện lợi, dễ sử dụng, tốc độ xử lý nhanh, nhiều ưu đãi… Vì vậy, người dùng đang dần chấp nhận loại hình thanh toán mới này. Chính vì thế, tiềm năng phát triển của thị trường vẫn còn khá lớn. Tuy nhiên, các nhà phát triển cũng cần cân nhắc về yếu tố bảo mật, rào cản lớn nhất đối với người dùng.
+
+Trí tuệ nhân tạo (AI) & Machine Learning trong Mobile App:
+
+AI và Machine Learning đã được đưa vào trong các Mobile App. Những tính năng thường gặp có thể kể đến như Chatbots, nhận dạng khuôn mặt hay tìm kiếm bằng giọng nói. Trong tương lai gần, việc sử dụng camera có tích hợp AI, hay dịch giọng nói sẽ còn phổ biến hơn.
+
+Tương lai của AI sẽ được ứng dụng để:
+
+	Nhận dạng hình ảnh, phân loại và gắn thẻ
+	
+	Xác định vật thể, phân loại và theo dõi
+	
+	Xử lý dữ liệu
+	
+	Dự báo
+	
+Chatbots:
+
+Chatbots đã và đang “len lỏi” vào cuộc sống hàng ngày của chúng ta. Những câu hỏi thường gặp như thời gian mở cửa, menu, giá dịch vụ… có thể được trả lời một cách tự động. Người bán vui vẻ vì không phải trả lời lặp lại. Người mua cũng hài lòng vì được phản hồi nhanh chóng. Ứng dụng “My Starbucks Barista” là một ví dụ thành công. Nó cho phép người dùng đặt và thanh toán qua việc giao tiếp bằng giọng nói với trợ lý ảo này. Ở Việt Nam, Chatbots được ứng dụng phổ biến với Facebook Messenger hay các trang TMDT.
+
+Công nghệ thực tế ảo – thực tế tăng cường (AR-VR):
+
+AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pokemon Go! là cú hích lớn cho việc đưa AR vào Mobile game. Giờ đây, nó đã xuất hiện ở nhiều loại ứng dụng hơn như các app chụp ảnh, làm đẹp…
+
+
 		iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
 		iv. Các nền tảng lập trình di đông.
 
