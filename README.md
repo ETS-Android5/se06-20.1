@@ -88,6 +88,8 @@ AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pok
 
 React Native là một framework ứng dụng di động mã nguồn mở, được phát triển bởi Facebook. Bản phát hành bản đầu tiên của nó là vào ngày 26 tháng 3 năm 2015. React Native được thiết kế để tạo các ứng dụng di động cho iOS và Android bằng cách cung cấp cho các developer một công cụ để sử dụng React cùng với nền tảng di động gốc.
 
+React Native giúp chúng ta tiết kiệm được nhiều thời gian và công sức nếu muốn xây dựng một ứng dụng đa nền tảng (multi-platform)
+
 **I. Các khái niệm trong react-native.**
 		
 • Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
@@ -98,29 +100,75 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 • State : State thì hoạt động khác với Props. State là dữ liệu nội bộ của một Component, trong khi props là dữ liệu được truyền cho Component. Chính vì vậy chúng ta hoàn toàn có thể thay đổi state, và coi nó là một kiểu dữ liệu có thể thay đổi. Vì đặc điểm này nên chúng ta hay sử dụng State để thay đổi dữ liệu của view, binding data lại view khi có thay đổi. Nhưng chúng ta không dùng this.state để gán lại giá trị thay đổi cho nó, mà chúng ta sẽ dùng this.setState. Function này sẽ trigger cho class rằng hãy render lại component và các component con của nó, còn this.state thì không.
 
-**II. Các thư viện.**
-		
+**II. Cơ chế hoạt động, thư viện.**
+
+***Cơ chế hoạt động***
+
+React Native hoạt động bằng cách tích hợp 2 thread là Main Thread và JS Thread cho ứng dụng mobile. Với Main Thread sẽ đảm nhận vai trò cập nhật giao diện người dùng(UI). Sau đó sẽ xử lý tương tác người dùng. Trong khi đó, JS Thread sẽ thực thi và xử lý code Javascript. Hai luồng này hoạt động độc lập với nhau.
+
+Để tương tác được với nhau hai Thread sẽ sử dụng một Bridge(cầu nối). Cho phép chúng giao tiếp mà không phụ thuộc lẫn nhau, chuyển đổi dữ liệu từ thread này sang thread khác. Dữ liệu từ hai Thread được vận hành khi tiếp nối dữ liệu cho nhau.
+
+***Các thư viện**
+
 • Redux
 
 Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của ngôn ngữ Elm kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React.  Nó giúp các ứng dụng hoạt động ổn định, chạy trong các môi trường khác nhau (client, server, and native) và dễ kiểm tra.
 
 Redux có 4 thành phần như sau:
 
-1. Actions
+	1. Actions
 
 Action là nơi mang các thông tin gửi từ ứng dụng đến Store, mô tả chúng ta muốn làm cái gì với cái store này. Các thông tin này là 1 object mô tả những gì đã xảy ra. Action gồm 2 phần là type (kiểu mô tả action), và giá trị tham số truyền lên.
 
-2. Reducers
+	2. Reducers
 
 Action có nhiệm vụ mô tả những gì xảy ra nhưng lại không chỉ rõ phần state nào của response thay đổi và thay đổi như thế nào. Việc này sẽ do Reducer đảm nhiệm. Reducer nhận 2 tham số: state cũ và thông tin action được gửi lên, sau đó nó biến đổi trả ra một state mới, không làm thay đổi state cũ.
 
-3. Store
+	3. Store
 
 Store là 1 object lưu trữ tất cả state của ứng dụng, cho phép truy cập state qua getState(), update state qua dispatch(action), đăng kí listener qua subscribe(listener). Trong store nó có Dispatcher, Reducer, State. Dispatcher là phần quản lý middleware, thường dùng để gọi API, log,... Sau khi dispatch xong thì nó đẩy xuống Reducer, reducer này đơn giản là 1 function nhận vào 2 thứ: state cũ và thông tin action, biến đổi cho ra state mới. Chính nhờ cái này mà redux có tính predictable, tức là cùng 1 state, cùng 1 action thì nó luôn luôn cho ra 1 state mới giống nhau.
 
-4. View
+	4. View
 
 View là phần giao diện, hiển thị giao diện thông qua state của store.
+
+Trong quá trình xây dựng Redux, các chuyên gia đã dựa vào 3 nguyên lý cơ bản sau đây:
+
+• Sử dụng nguồn dữ liệu đảm bảo tin cậy. Các state của tất cả ứng dụng đều nằm cùng một object tree trong một Store duy nhất.
+
+• Chỉ được phép đọc trạng thái. Hiểu đơn giản, để thay đổi trạng thái của ứng dụng, cách duy nhất là thực hiện một Action.
+
+• Sử dụng các hàm thuần túy để thay đổi với mục đích chỉ ra cách state được biến đổi từ Action. Vì thế, chúng ta mới cần sử dụng các pure function được gọi là Reducer.
+
+Những lợi ích của Redux:
+
+• Hỗ trợ dự đoán trạng thái
+
+Redux có chức năng dự đoán và quản lý trạng thái và chúng sẽ không bao giờ thay đổi. Lợi ích này có thể giúp người dùng thực hiện các nhiệm vụ phức tạp như hoàn tác hoặc làm lại vô thời hạn. Đồng thời, Redux còn có chức năng luân chuyển linh hoạt giữa các trạng thái để kiểm tra hiệu quả trong thời gian thực.
+
+• Khả năng bảo trì
+
+Redux có một hệ thống code cực kỳ nghiêm ngặt, nhưng với những người đã sử dụng và hiểu về Redux sẽ tiếp cận dễ dàng hơn. Cũng chính việc này đã giúp cho Redux có thể được bảo trì một cách dễ dàng. Bên cạnh đó, lợi ích này còn góp phần giúp người dùng tách biệt logic nghiệp vụ khỏi sơ đồ thành phần. Trong khi đó, mục tiêu quan trọng của các ứng dụng có quy mô lớn hiện nay đều là hướng cho phần mềm của mình có thể dự đoán cũng như bảo trì được
+
+• Gỡ lỗi một cách dễ dàng
+
+Redux cho phép người dùng gỡ lỗi dễ dàng bằng cách lưu lại những Action và trạng thái để dễ nhận diện đối với những trường hợp lỗi mã hóa, lỗi mạng và một số lỗi khác khi định dạng trong quá trình triển khai chương trình. Việc gỡ lỗi thông thường sẽ cần nhiều thời gian và phức tạp nhưng với Redux DevTools của Redux sẽ hỗ trợ người dùng thực hiện thao tác gỡ lỗi dễ dàng hơn.
+
+• Lợi ích về hiệu suất
+
+React Redux thực hiện nhiều tối ưu hóa hiệu suất bên trong để thành phần được kết nối của riêng bạn chỉ hiển thị khi thực sự cần.
+
+• Dễ kiểm tra
+
+Tương đối dễ dàng để kiểm tra các ứng dụng Redux vì các chức năng được sử dụng để thay đổi trạng thái của các chức năng thuần túy.
+
+• Trạng thái bền bỉ
+
+Chúng ta có thể duy trì một số trạng thái của ứng dụng trong bộ nhớ cục bộ và khôi phục chúng sau khi làm mới. Điều này thực sự tiện lợi.
+
+• Kết xuất phía máy chủ
+
+Trên máy chủ có thể để Redux được hiển thị, người dùng có thể xử lý các kết xuất ban đầu của chương trình bằng cách truyền tải những trạng thái đến các máy chủ và đợi phản hồi từ nó.
 
 ### III. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios).
 
