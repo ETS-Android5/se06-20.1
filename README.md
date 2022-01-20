@@ -81,76 +81,7 @@ Chatbots đã và đang “len lỏi” vào cuộc sống hàng ngày của ch�
 AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pokemon Go! là cú hích lớn cho việc đưa AR vào Mobile game. Giờ đây, nó đã xuất hiện ở nhiều loại ứng dụng hơn như các app chụp ảnh, làm đẹp…
 
 
-### iii. Các loại lập trình di động: lập trình native, đa nền tảng …
-
-Thị trường phát triển các ứng dụng di động cũng chủ yếu xoay quay hai loại nền tảng là :IOS và Android
-
-**Ngôn ngữ lập trình ứng dụng IOS:**
-
-Ngôn ngữ lập trình dành cho hệ điều hành IOS được xem là phổ biến và sử dụng rộng rãi bởi các lập trình viên hiện nay :
-
-***Swift:***
-
-Swift chính là ngôn ngữ lập trình ứng dụng ios vô cùng phổ biến hiện nay. Với nhiều tính năng được Apple bổ sung như khả năng tìm lỗi, syntax đơn giản, Swift đang ngày càng thịnh hành và trở thành ngôn ngữ chủ lực cho toàn bộ hệ thống.
-
-***Objective-C :***
-
-Dường như được sinh ra chỉ để dành riêng cho Apple Mac, Objective-C là một ngôn ngữ lập trình hướng đối tượng và phức tạp hơn so với ngôn ngữ C hoặc Java. Tuy nhiên, việc sử dụng Objective hay tạo ứng dụng thực tế với ngôn ngữ này lại không quá khó với những công cụ có sẵn mà Apple cung cấp.
-
-**Ngôn ngữ lập trình ứng dụng Android:**
-
-Nói đến hệ điều hành Android, bạn sẽ không thể nào bỏ qua được những ngôn ngữ lập trình nổi bật đang được ưa chuộng nhất hiện nay:
-
-***Java:***
-
-Java là ngôn ngữ lập trình ứng dụng android được xem là phổ biến và quan trọng nhất hiện nay mà bất kỳ lập trình viên nào cũng cần phải trang bị kiến thức về nó. Java được thiết kế theo đúng khẩu hiệu “Viết một lần, chạy mọi nơi", nó có thể hoạt động trên nhiều nền tảng khác nhau.
-
-Nếu bạn đang có ý định xây dựng một phần mềm doanh nghiệp, games, các trang web hay ứng dụng Android thì Java chính là ngôn ngữ mà bạn sẽ tiếp xúc và làm việc lâu dài.
-
-***Kotlin:***
-
-Được phát triển bởi IDE nổi tiếng JetBrains, ngôn ngữ lập trình ứng dụng android Kotlin được ra đời với mục đích giải quyết những vấn đề còn tồn tại trong ngôn ngữ Java.
-
-Ngôn ngữ này có syntax nhỏ gọn, đơn giản và giảm bớt được những dòng code dài dòng và rườm rà. Từ đó, người viết có thể tập trung hơn trong việc giải quyết vấn đề thay vì xoay quanh các câu lệnh phức tạp.
-
-Ngôn ngữ lập trình ứng dụng đa nền tảng:
-
-Ngoài các ngôn ngữ dành cho các ứng dụng IOS hay Android bạn cũng có thể tham khảo thêm các loại ngôn ngữ lập trình khác dành cho ứng dụng đa nền tảng sau đây:
-
-***Javascript:***
-
-Javascript nghe có vẻ giống Java nhưng thực tế, nó có mối liên hệ nhất định với ngôn ngữ lập trình C. Đây là ngôn ngữ lập trình ứng dụng đa nền tảng có khả năng chạy trên nhiều nền tảng, trình duyệt khác nhau được sử dụng với mục đích phát triển game hay các ứng dụng trên desktop.
-
-Tuy nhiên, javascript thường được ứng dụng để phát triển tính năng tương tác, thiết kế web và tạo hiệu ứng web nhiều hơn.
-
-***Typescript:***
-
-Typescript chính là phiên bản nâng cấp của Javascript. Ngôn ngữ lập trình ứng dụng này có tính an toàn hơn nhờ có hỗ trợ tĩnh và cung cấp thêm nhiều hỗ trợ khác giúp phát triển các ứng dụng mang tính quy mô lớn.
-
-Ngoài ra, dưới sự duy trì và phát triển của Microsoft, bằng cách sử dụng các framework như NativeScript, loại ngôn ngữ này còn cho phép các nhà phát triển ứng dụng có khả năng viết ứng dụng đa nền tảng trên thiết bị di động.
-
-**Các loại ngôn ngữ lập trình ứng dụng khác :**
-
-Bên cạnh những ngôn ngữ lập trình phổ biến nói trên thì bạn cũng nên tìm hiểu thêm về các loại ngôn ngữ lập trình dưới đây để có thể mở rộng hiểu biết và thêm nhiều sự lựa chọn hơn khi tạo ứng dụng.
-
-***C++ :***
-
-Là phiên bản nâng cấp của ngôn ngữ lập trình C, C++ chính là ngôn ngữ tạo ra các ứng dụng nổi tiếng như Adobe, Firefox và nhiều game khác trên máy tính. Tuy tốc độ của C++ là đáng kinh ngạc nhưng nó đòi hỏi bạn phải là một lập trình viên chuyên nghiệp và có khả năng xử lý cao.
-
-***C#:***
-
-C# hay C-sharp là ngôn ngữ lập trình ứng dụng được phát triển từ ngôn ngữ Java mặc dù hai cái tên này không mấy liên quan đến nhau. Các ứng dụng, phần mềm được viết bằng C# tuy đa năng nhưng nó chỉ chạy trên hệ điều hành Window và phải có .Net Framework.
-
-***Ruby:***
-
-Chịu ảnh hưởng của C++, Ada, Python, Perl và Lisp, Ruby là ngôn ngữ lập trình kịch bản hướng đối tượng và là một framework tuyệt vời được sử dụng với mục đích phát triển các ứng dụng di động đa nền tảng hoặc ứng dụng đơn thuần. Không khó để có thể sử dụng Ruby bởi cú pháp tập trung nhiều vào tính hiệu suất và đơn giản.
-
-***Python:***
-
-Là ngôn ngữ lập trình hướng đối tượng, Python thích hợp và khá đơn giản để học đối với những lập trình viên mới bắt đầu học ngôn ngữ. Ngôn ngữ lập trình ứng dụng này tính đa dạng, nó được xem là nền tảng hỗ trợ bạn học thêm về các ngôn ngữ khác.
-
-Điển hình là từ Python, bạn có thể tiếp cận dễ dàng hơn với Ruby hoặc giúp nhiệm vụ covert PHP trở nên đơn giản hơn.
-
+### iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
 ### iv. Các nền tảng lập trình di đông.
 
 ## B. Tìm hiểu lập trình react-native
@@ -171,13 +102,13 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 **II. Cơ chế hoạt động, thư viện.**
 
-**Cơ chế hoạt động**
+***Cơ chế hoạt động***
 
 React Native hoạt động bằng cách tích hợp 2 thread là Main Thread và JS Thread cho ứng dụng mobile. Với Main Thread sẽ đảm nhận vai trò cập nhật giao diện người dùng(UI). Sau đó sẽ xử lý tương tác người dùng. Trong khi đó, JS Thread sẽ thực thi và xử lý code Javascript. Hai luồng này hoạt động độc lập với nhau.
 
 Để tương tác được với nhau hai Thread sẽ sử dụng một Bridge(cầu nối). Cho phép chúng giao tiếp mà không phụ thuộc lẫn nhau, chuyển đổi dữ liệu từ thread này sang thread khác. Dữ liệu từ hai Thread được vận hành khi tiếp nối dữ liệu cho nhau.
 
-**Các thư viện**
+***Các thư viện**
 
 • Redux
 
@@ -209,7 +140,7 @@ Trong quá trình xây dựng Redux, các chuyên gia đã dựa vào 3 nguyên 
 
 • Sử dụng các hàm thuần túy để thay đổi với mục đích chỉ ra cách state được biến đổi từ Action. Vì thế, chúng ta mới cần sử dụng các pure function được gọi là Reducer.
 
-***Những lợi ích của Redux:***
+Những lợi ích của Redux:
 
 • Hỗ trợ dự đoán trạng thái
 
@@ -246,39 +177,39 @@ Trên máy chủ có thể để Redux được hiển thị, người dùng có
 
 **Ưu điểm**
 
-• ***Có thể tái sử dụng code***
+• Có thể tái sử dụng code
 
 React Native cho phép các developer có thể tái sử dụng code trong khi phát triển các ứng dụng đa nền tảng. Đặc biệt, developer có thể tái sử dụng hầu như 80-90% các đoạn code thay vì phải viết và tạo các ứng dụng riêng biệt cho các nền tảng khác nhau.  Ưu điểm này giúp người dùng tiết kiệm thời gian và giảm chi phí phát triển của một ứng dụng, tận dụng nguồn nhân lực tốt hơn cũng như duy trì ít code hơn, ít bugs hơn.
 
-• ***Cộng đồng người dùng lớn***
+• Cộng đồng người dùng lớn
 
 React Native được đánh giá là một trong những Framework được yêu thích nhất (khảo sát của stack overflow vào năm 2019).  Nhờ cộng đồng người dùng rất lớn trên toàn thế giới, ta có thể tìm sự hỗ trợ nếu gặp phải bugs. 
 
-• ***Tính ổn định và tối ưu***
+• Tính ổn định và tối ưu
 
 Được phát triển bởi Facebook, React Native có hiệu năng ổn định khá cao. Mã React Native giúp đơn giản hóa quá trình xử lý dữ liệu. Đội ngũ phát triển ứng dụng không quá lớn. Xây dựng ứng dụng ít native code nhất cho nhiều hệ điều hành khác nhau.
 
-• ***Thời gian học tập ngắn***
+• Thời gian học tập ngắn
 
 Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh thái hoàn toàn khác nhau. Trong trường hợp muốn học lập trình app iOS thì cần phải học Swift hay CocoaPods, Objective-C. Mặt khác, nếu muốn học lập trình Android thì phải học Java, Android SDK, Kotlin. Mỗi framework đều có một gói những công cụ như: libs, testing, packages… và việc các lập trình viên phải cập nhật các tính năng mới nhất của hệ sinh thái là điều cần thiết. Tuy nhiên, với việc lập trình trên React Native, chúng ta chỉ cần học một bộ công cụ duy nhất.
 
 **Nhược điểm**
 
-• ***Yêu cầu Native code.***
+• Yêu cầu Native code.
 
-• ***Hiệu năng kém hơn so với Native App.***
+• Hiệu năng kém hơn so với Native App.
 
-• ***Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau.***
+• Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau. 
 
-• ***Quản lý bộ nhớ.***
+• Quản lý bộ nhớ.
 
-• ***Thiếu các component, tuy nhiên đang dần có nhiều cập nhật mới.***
+• Thiếu các component, tuy nhiên đang dần có nhiều cập nhật mới.
 
-• ***Tùy biến chưa thật sự tốt ở một số module.***
+• Tùy biến chưa thật sự tốt ở một số module.
 
-• ***Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).***
+• Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).
 
-• ***Không xây dựng được ứng dụng iOS trên Linux và Window bởi Apple yêu cầu tất cả các ứng dụng iOS cần phải được sử dụng nhiều native libs từ Xcode.***
+• Không xây dựng được ứng dụng iOS trên Linux và Window bởi Apple yêu cầu tất cả các ứng dụng iOS cần phải được sử dụng nhiều native libs từ Xcode.
 		
 		
 ### V. Xu thế lập trình react-native hiện tại.
@@ -329,7 +260,7 @@ Cả hai framework đều sử dụng tính năng host reload để bạn có th
 Có một số cuộc tranh luận về việc liệu Flutter và React Native có thực sự có hiệu suất như Native hay không. Được coi là Native 100%, chúng sẽ cần được viết bằng ngôn ngữ mà chúng được thiết kế - cụ thể là Swift cho iOS và Kotlin / Java cho Android.
 
 Công ty tạo ra Reflectly gần đây đã chuyển ứng dụng từ React Native sang Flutter và thấy hiệu suất tăng đáng kể . Đây là một ví dụ về sự cải tiến. Tuy nhiên, nó sẽ không giống nhau cho mọi ứng dụng; Có nhiều trường hợp cần xem xét, chẳng hạn như loại ứng dụng, cơ sở dữ liệu, điện thoại, hệ điều hành, v.v.
-		*Flutter so với React Native: Hệ sinh thái nhà phát triển
+		c1.e:Flutter so với React Native: Hệ sinh thái nhà phát triển
 Các dev quan tâm đến việc xây dựng ứng dụng Flutter có xu hướng tham khảo tài liệu chính thức . Tuy nhiên, trong trường hợp của React Native, bạn có một số tùy chọn. Bạn có thể sử dụng tài liệu chính thức hoặc bạn có thể sử dụng một số tài liệu khác, phổ biến nhất là Expo . Expo cung cấp nhiều tính năng và tùy chỉnh hơn, bao gồm cả thư viện biểu tượng tích hợp, trong khi các tài liệu chính thức của React Native lại đơn giản hơn.
 
 Hệ sinh thái React Native đã trưởng thành hơn và có nhiều người dùng hơn kể từ khi JavaScript xuất hiện từ năm 1995. Ngược lại, Flutter được phát hành vào năm 2017. React có lẽ là frontend framework phổ biến nhất vào thời điểm hiện tại và có một cộng đồng rất tích cực trên các phương tiện truyền thông xã hội. Flutter không phải là slouch; tại thời điểm viết bài, nó có nhiều sao hơn React Native trên GitHub.
@@ -341,7 +272,24 @@ Các con số cũng khá giống nhau trên các phương tiện truyền thông
 Không có người chiến thắng rõ ràng ở đây: cả Flutter và React đều có ưu và khuyết điểm, và lựa chọn phù hợp sẽ phụ thuộc vào kinh nghiệm của bạn cũng như mục tiêu và yêu cầu của dự án của bạn.
 
 	==> Nếu bạn đã biết JavaScript, viết ứng dụng di động trong React Native là điều không cần bàn cãi. Tuy nhiên, nếu bạn đang tìm kiếm hiệu suất và độ ổn định tốt hơn cũng như môi trường gắn kết hơn giữa các hệ sinh thái, bạn nên cân nhắc dùng thử Flutter.
+	
+	c2:So sánh  ReactJS vs React Native
+		ReactJS và React Native có một lịch sử khá là thú vị:
+
+Vào năm 2021, khi Facebook ads được mở rộng và có thêm nhiều tính năng mới, hấp dẫn hơn, team kỹ sư của Facebook nhận ra rằng việc cập nhập liên tục sẽ làm chậm đi tiến trình của họ.
+
+Các thay đổi và cập nhật theo tầng nội dung buộc các nhà phát triển phải thiết kế lại toàn bộ ứng dụng. Khi quy mô của team mở rộng, các vấn đề cũng ngày càng tăng theo.
+
+Họ có một model đúng nhưng UI cần phải cải tiến nhiều.
+
+Cũng tại thời điểm đó, một kỹ sư của Facebook là Jordan Walke đã sử dụng XHP (một thư viện component HTML cho PHP) để tạo ra FaxJS, một nguyên mẫu đầu tiên của ReactJS.
+
+Vào năm 2011, timeline của Facebook được phát triển bởi ReactJS và đây là một bước nhảy vọt.
+
+Vào năm 2012, Instagram đã được Facebook mua lại và sau đó Reactjs cũng được sử dụng cho timeline của Insatgram.
+	c2.1:Điểm khác biệt chính giữa ReactJS và React Native
 ## 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
+
 	a. Ý tưởng và mô tả hệ thống thương mại điện tử ----- Hoàng
 	
 	b. Các thành phần trong hệ thống và chức năng 
