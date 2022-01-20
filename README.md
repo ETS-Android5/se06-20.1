@@ -171,7 +171,7 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 **II. Cơ chế hoạt động, thư viện.**
 
-**Cơ chế hoạt động***
+**Cơ chế hoạt động**
 
 React Native hoạt động bằng cách tích hợp 2 thread là Main Thread và JS Thread cho ứng dụng mobile. Với Main Thread sẽ đảm nhận vai trò cập nhật giao diện người dùng(UI). Sau đó sẽ xử lý tương tác người dùng. Trong khi đó, JS Thread sẽ thực thi và xử lý code Javascript. Hai luồng này hoạt động độc lập với nhau.
 
@@ -268,7 +268,7 @@ Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh
 
 • ***Hiệu năng kém hơn so với Native App.***
 
-• ***Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau. ***
+• ***Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau.***
 
 • ***Quản lý bộ nhớ.***
 
