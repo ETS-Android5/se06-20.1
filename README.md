@@ -129,23 +129,23 @@ Typescript chính là phiên bản nâng cấp của Javascript. Ngôn ngữ l�
 
 Ngoài ra, dưới sự duy trì và phát triển của Microsoft, bằng cách sử dụng các framework như NativeScript, loại ngôn ngữ này còn cho phép các nhà phát triển ứng dụng có khả năng viết ứng dụng đa nền tảng trên thiết bị di động.
 
-**Các loại ngôn ngữ lập trình ứng dụng khác :
+**Các loại ngôn ngữ lập trình ứng dụng khác :**
 
 Bên cạnh những ngôn ngữ lập trình phổ biến nói trên thì bạn cũng nên tìm hiểu thêm về các loại ngôn ngữ lập trình dưới đây để có thể mở rộng hiểu biết và thêm nhiều sự lựa chọn hơn khi tạo ứng dụng.
 
-***C++ :
+***C++ :***
 
 Là phiên bản nâng cấp của ngôn ngữ lập trình C, C++ chính là ngôn ngữ tạo ra các ứng dụng nổi tiếng như Adobe, Firefox và nhiều game khác trên máy tính. Tuy tốc độ của C++ là đáng kinh ngạc nhưng nó đòi hỏi bạn phải là một lập trình viên chuyên nghiệp và có khả năng xử lý cao.
 
-***C#:
+***C#:***
 
 C# hay C-sharp là ngôn ngữ lập trình ứng dụng được phát triển từ ngôn ngữ Java mặc dù hai cái tên này không mấy liên quan đến nhau. Các ứng dụng, phần mềm được viết bằng C# tuy đa năng nhưng nó chỉ chạy trên hệ điều hành Window và phải có .Net Framework.
 
-***Ruby:
+***Ruby:***
 
 Chịu ảnh hưởng của C++, Ada, Python, Perl và Lisp, Ruby là ngôn ngữ lập trình kịch bản hướng đối tượng và là một framework tuyệt vời được sử dụng với mục đích phát triển các ứng dụng di động đa nền tảng hoặc ứng dụng đơn thuần. Không khó để có thể sử dụng Ruby bởi cú pháp tập trung nhiều vào tính hiệu suất và đơn giản.
 
-***Python:
+***Python:***
 
 Là ngôn ngữ lập trình hướng đối tượng, Python thích hợp và khá đơn giản để học đối với những lập trình viên mới bắt đầu học ngôn ngữ. Ngôn ngữ lập trình ứng dụng này tính đa dạng, nó được xem là nền tảng hỗ trợ bạn học thêm về các ngôn ngữ khác.
 
