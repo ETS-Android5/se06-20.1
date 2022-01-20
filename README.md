@@ -85,6 +85,9 @@ AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pok
 ### iv. Các nền tảng lập trình di đông.
 
 ## B. Tìm hiểu lập trình react-native
+
+React Native là một framework ứng dụng di động mã nguồn mở, được phát triển bởi Facebook. Bản phát hành bản đầu tiên của nó là vào ngày 26 tháng 3 năm 2015. React Native được thiết kế để tạo các ứng dụng di động cho iOS và Android bằng cách cung cấp cho các developer một công cụ để sử dụng React cùng với nền tảng di động gốc.
+
 **i. Các khái niệm trong react-native.**
 		
 • Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
@@ -126,17 +129,21 @@ View là phần giao diện, hiển thị giao diện thông qua state của sto
 
 **Ưu điểm**
 
-•Có thể tái sử dụng code
+• Có thể tái sử dụng code
 
 React Native cho phép các developer có thể tái sử dụng code trong khi phát triển các ứng dụng đa nền tảng. Đặc biệt, developer có thể tái sử dụng hầu như 80-90% các đoạn code thay vì phải viết và tạo các ứng dụng riêng biệt cho các nền tảng khác nhau.  Ưu điểm này giúp người dùng tiết kiệm thời gian và giảm chi phí phát triển của một ứng dụng, tận dụng nguồn nhân lực tốt hơn cũng như duy trì ít code hơn, ít bugs hơn.
 
-•Cộng đồng người dùng lớn
+• Cộng đồng người dùng lớn
 
 React Native được đánh giá là một trong những Framework được yêu thích nhất (khảo sát của stack overflow vào năm 2019).  Nhờ cộng đồng người dùng rất lớn trên toàn thế giới, ta có thể tìm sự hỗ trợ nếu gặp phải bugs. 
 
-•Tính ổn định và tối ưu
+• Tính ổn định và tối ưu
 
 Được phát triển bởi Facebook, React Native có hiệu năng ổn định khá cao. Mã React Native giúp đơn giản hóa quá trình xử lý dữ liệu. Đội ngũ phát triển ứng dụng không quá lớn. Xây dựng ứng dụng ít native code nhất cho nhiều hệ điều hành khác nhau.
+
+• Thời gian học tập ngắn
+
+Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh thái hoàn toàn khác nhau. Trong trường hợp muốn học lập trình app iOS thì cần phải học Swift hay CocoaPods, Objective-C. Mặt khác, nếu muốn học lập trình Android thì phải học Java, Android SDK, Kotlin. Mỗi framework đều có một gói những công cụ như: libs, testing, packages… và việc các lập trình viên phải cập nhật các tính năng mới nhất của hệ sinh thái là điều cần thiết. Tuy nhiên, với việc lập trình trên React Native, chúng ta chỉ cần học một bộ công cụ duy nhất.
 
 **Nhược điểm**
 
