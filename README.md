@@ -171,13 +171,13 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 **II. Cơ chế hoạt động, thư viện.**
 
-***Cơ chế hoạt động***
+**Cơ chế hoạt động***
 
 React Native hoạt động bằng cách tích hợp 2 thread là Main Thread và JS Thread cho ứng dụng mobile. Với Main Thread sẽ đảm nhận vai trò cập nhật giao diện người dùng(UI). Sau đó sẽ xử lý tương tác người dùng. Trong khi đó, JS Thread sẽ thực thi và xử lý code Javascript. Hai luồng này hoạt động độc lập với nhau.
 
 Để tương tác được với nhau hai Thread sẽ sử dụng một Bridge(cầu nối). Cho phép chúng giao tiếp mà không phụ thuộc lẫn nhau, chuyển đổi dữ liệu từ thread này sang thread khác. Dữ liệu từ hai Thread được vận hành khi tiếp nối dữ liệu cho nhau.
 
-***Các thư viện**
+**Các thư viện**
 
 • Redux
 
@@ -209,7 +209,7 @@ Trong quá trình xây dựng Redux, các chuyên gia đã dựa vào 3 nguyên 
 
 • Sử dụng các hàm thuần túy để thay đổi với mục đích chỉ ra cách state được biến đổi từ Action. Vì thế, chúng ta mới cần sử dụng các pure function được gọi là Reducer.
 
-Những lợi ích của Redux:
+***Những lợi ích của Redux:***
 
 • Hỗ trợ dự đoán trạng thái
 
@@ -246,39 +246,39 @@ Trên máy chủ có thể để Redux được hiển thị, người dùng có
 
 **Ưu điểm**
 
-• Có thể tái sử dụng code
+• ***Có thể tái sử dụng code***
 
 React Native cho phép các developer có thể tái sử dụng code trong khi phát triển các ứng dụng đa nền tảng. Đặc biệt, developer có thể tái sử dụng hầu như 80-90% các đoạn code thay vì phải viết và tạo các ứng dụng riêng biệt cho các nền tảng khác nhau.  Ưu điểm này giúp người dùng tiết kiệm thời gian và giảm chi phí phát triển của một ứng dụng, tận dụng nguồn nhân lực tốt hơn cũng như duy trì ít code hơn, ít bugs hơn.
 
-• Cộng đồng người dùng lớn
+• ***Cộng đồng người dùng lớn***
 
 React Native được đánh giá là một trong những Framework được yêu thích nhất (khảo sát của stack overflow vào năm 2019).  Nhờ cộng đồng người dùng rất lớn trên toàn thế giới, ta có thể tìm sự hỗ trợ nếu gặp phải bugs. 
 
-• Tính ổn định và tối ưu
+• ***Tính ổn định và tối ưu***
 
 Được phát triển bởi Facebook, React Native có hiệu năng ổn định khá cao. Mã React Native giúp đơn giản hóa quá trình xử lý dữ liệu. Đội ngũ phát triển ứng dụng không quá lớn. Xây dựng ứng dụng ít native code nhất cho nhiều hệ điều hành khác nhau.
 
-• Thời gian học tập ngắn
+• ***Thời gian học tập ngắn***
 
 Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh thái hoàn toàn khác nhau. Trong trường hợp muốn học lập trình app iOS thì cần phải học Swift hay CocoaPods, Objective-C. Mặt khác, nếu muốn học lập trình Android thì phải học Java, Android SDK, Kotlin. Mỗi framework đều có một gói những công cụ như: libs, testing, packages… và việc các lập trình viên phải cập nhật các tính năng mới nhất của hệ sinh thái là điều cần thiết. Tuy nhiên, với việc lập trình trên React Native, chúng ta chỉ cần học một bộ công cụ duy nhất.
 
 **Nhược điểm**
 
-• Yêu cầu Native code.
+• ***Yêu cầu Native code.***
 
-• Hiệu năng kém hơn so với Native App.
+• ***Hiệu năng kém hơn so với Native App.***
 
-• Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau. 
+• ***Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau. ***
 
-• Quản lý bộ nhớ.
+• ***Quản lý bộ nhớ.***
 
-• Thiếu các component, tuy nhiên đang dần có nhiều cập nhật mới.
+• ***Thiếu các component, tuy nhiên đang dần có nhiều cập nhật mới.***
 
-• Tùy biến chưa thật sự tốt ở một số module.
+• ***Tùy biến chưa thật sự tốt ở một số module.***
 
-• Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).
+• ***Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).***
 
-• Không xây dựng được ứng dụng iOS trên Linux và Window bởi Apple yêu cầu tất cả các ứng dụng iOS cần phải được sử dụng nhiều native libs từ Xcode.
+• ***Không xây dựng được ứng dụng iOS trên Linux và Window bởi Apple yêu cầu tất cả các ứng dụng iOS cần phải được sử dụng nhiều native libs từ Xcode.***
 		
 		
 ### V. Xu thế lập trình react-native hiện tại.
