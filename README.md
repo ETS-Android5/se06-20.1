@@ -119,12 +119,13 @@ Store là 1 object lưu trữ tất cả state của ứng dụng, cho phép tru
 
 View là phần giao diện, hiển thị giao diện thông qua state của store.
 
-## iii. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios).
+### iii. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios).
 
 
-## iv.  Ưu - nhược điểm của React Native
+### iv. Ưu - nhược điểm của React Native
 
 **Ưu điểm**
+
 •Có thể tái sử dụng code
 
 React Native cho phép các developer có thể tái sử dụng code trong khi phát triển các ứng dụng đa nền tảng. Đặc biệt, developer có thể tái sử dụng hầu như 80-90% các đoạn code thay vì phải viết và tạo các ứng dụng riêng biệt cho các nền tảng khác nhau.  Ưu điểm này giúp người dùng tiết kiệm thời gian và giảm chi phí phát triển của một ứng dụng, tận dụng nguồn nhân lực tốt hơn cũng như duy trì ít code hơn, ít bugs hơn.
