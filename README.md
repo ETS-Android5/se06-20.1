@@ -102,11 +102,13 @@ Dường như được sinh ra chỉ để dành riêng cho Apple Mac, Objective
 Nói đến hệ điều hành Android, bạn sẽ không thể nào bỏ qua được những ngôn ngữ lập trình nổi bật đang được ưa chuộng nhất hiện nay:
 
 **Java:**
+
 Java là ngôn ngữ lập trình ứng dụng android được xem là phổ biến và quan trọng nhất hiện nay mà bất kỳ lập trình viên nào cũng cần phải trang bị kiến thức về nó. Java được thiết kế theo đúng khẩu hiệu “Viết một lần, chạy mọi nơi", nó có thể hoạt động trên nhiều nền tảng khác nhau.
 
 Nếu bạn đang có ý định xây dựng một phần mềm doanh nghiệp, games, các trang web hay ứng dụng Android thì Java chính là ngôn ngữ mà bạn sẽ tiếp xúc và làm việc lâu dài.
 
 **Kotlin:**
+
 Được phát triển bởi IDE nổi tiếng JetBrains, ngôn ngữ lập trình ứng dụng android Kotlin được ra đời với mục đích giải quyết những vấn đề còn tồn tại trong ngôn ngữ Java.
 
 Ngôn ngữ này có syntax nhỏ gọn, đơn giản và giảm bớt được những dòng code dài dòng và rườm rà. Từ đó, người viết có thể tập trung hơn trong việc giải quyết vấn đề thay vì xoay quanh các câu lệnh phức tạp.
@@ -116,11 +118,13 @@ Ngôn ngữ này có syntax nhỏ gọn, đơn giản và giảm bớt được 
 Ngoài các ngôn ngữ dành cho các ứng dụng IOS hay Android bạn cũng có thể tham khảo thêm các loại ngôn ngữ lập trình khác dành cho ứng dụng đa nền tảng sau đây:
 
 **Javascript:**
+
 Javascript nghe có vẻ giống Java nhưng thực tế, nó có mối liên hệ nhất định với ngôn ngữ lập trình C. Đây là ngôn ngữ lập trình ứng dụng đa nền tảng có khả năng chạy trên nhiều nền tảng, trình duyệt khác nhau được sử dụng với mục đích phát triển game hay các ứng dụng trên desktop.
 
 Tuy nhiên, javascript thường được ứng dụng để phát triển tính năng tương tác, thiết kế web và tạo hiệu ứng web nhiều hơn.
 
 **Typescript:** 
+
 Typescript chính là phiên bản nâng cấp của Javascript. Ngôn ngữ lập trình ứng dụng này có tính an toàn hơn nhờ có hỗ trợ tĩnh và cung cấp thêm nhiều hỗ trợ khác giúp phát triển các ứng dụng mang tính quy mô lớn.
 
 Ngoài ra, dưới sự duy trì và phát triển của Microsoft, bằng cách sử dụng các framework như NativeScript, loại ngôn ngữ này còn cho phép các nhà phát triển ứng dụng có khả năng viết ứng dụng đa nền tảng trên thiết bị di động.
@@ -134,12 +138,15 @@ Bên cạnh những ngôn ngữ lập trình phổ biến nói trên thì bạn 
 Là phiên bản nâng cấp của ngôn ngữ lập trình C, C++ chính là ngôn ngữ tạo ra các ứng dụng nổi tiếng như Adobe, Firefox và nhiều game khác trên máy tính. Tuy tốc độ của C++ là đáng kinh ngạc nhưng nó đòi hỏi bạn phải là một lập trình viên chuyên nghiệp và có khả năng xử lý cao.
 
 **C#:**
+
 C# hay C-sharp là ngôn ngữ lập trình ứng dụng được phát triển từ ngôn ngữ Java mặc dù hai cái tên này không mấy liên quan đến nhau. Các ứng dụng, phần mềm được viết bằng C# tuy đa năng nhưng nó chỉ chạy trên hệ điều hành Window và phải có .Net Framework.
 
 **Ruby:**
+
 Chịu ảnh hưởng của C++, Ada, Python, Perl và Lisp, Ruby là ngôn ngữ lập trình kịch bản hướng đối tượng và là một framework tuyệt vời được sử dụng với mục đích phát triển các ứng dụng di động đa nền tảng hoặc ứng dụng đơn thuần. Không khó để có thể sử dụng Ruby bởi cú pháp tập trung nhiều vào tính hiệu suất và đơn giản.
 
 **Python:** 
+
 Là ngôn ngữ lập trình hướng đối tượng, Python thích hợp và khá đơn giản để học đối với những lập trình viên mới bắt đầu học ngôn ngữ. Ngôn ngữ lập trình ứng dụng này tính đa dạng, nó được xem là nền tảng hỗ trợ bạn học thêm về các ngôn ngữ khác.
 
 Điển hình là từ Python, bạn có thể tiếp cận dễ dàng hơn với Ruby hoặc giúp nhiệm vụ covert PHP trở nên đơn giản hơn.
