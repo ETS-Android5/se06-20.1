@@ -88,7 +88,7 @@ AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pok
 
 React Native là một framework ứng dụng di động mã nguồn mở, được phát triển bởi Facebook. Bản phát hành bản đầu tiên của nó là vào ngày 26 tháng 3 năm 2015. React Native được thiết kế để tạo các ứng dụng di động cho iOS và Android bằng cách cung cấp cho các developer một công cụ để sử dụng React cùng với nền tảng di động gốc.
 
-**i. Các khái niệm trong react-native.**
+**I. Các khái niệm trong react-native.**
 		
 • Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
 		
@@ -98,7 +98,7 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 • State : State thì hoạt động khác với Props. State là dữ liệu nội bộ của một Component, trong khi props là dữ liệu được truyền cho Component. Chính vì vậy chúng ta hoàn toàn có thể thay đổi state, và coi nó là một kiểu dữ liệu có thể thay đổi. Vì đặc điểm này nên chúng ta hay sử dụng State để thay đổi dữ liệu của view, binding data lại view khi có thay đổi. Nhưng chúng ta không dùng this.state để gán lại giá trị thay đổi cho nó, mà chúng ta sẽ dùng this.setState. Function này sẽ trigger cho class rằng hãy render lại component và các component con của nó, còn this.state thì không.
 
-**ii. Các thư viện.**
+**II. Các thư viện.**
 		
 • Redux
 
@@ -122,10 +122,10 @@ Store là 1 object lưu trữ tất cả state của ứng dụng, cho phép tru
 
 View là phần giao diện, hiển thị giao diện thông qua state của store.
 
-### iii. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios).
+### III. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios).
 
 
-### iv. Ưu - nhược điểm của React Native
+### IV. Ưu - nhược điểm của React Native
 
 **Ưu điểm**
 
