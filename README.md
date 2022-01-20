@@ -147,17 +147,21 @@ Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh
 
 **Nhược điểm**
 
-•Yêu cầu Native code.
+• Yêu cầu Native code.
 
-•Hiệu năng kém hơn so với Native App.
+• Hiệu năng kém hơn so với Native App.
 
-•Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau. 
+• Bảo mật chưa thật sự tốt do dùng JavaScript. Do sử dụng JavaScript, người dùng cũng sẽ bị ảnh hưởng bởi những đặc điểm của JavaScript: dễ làm dễ sai, dẫn đến khó duy trì về sau. 
 
-•Quản lý bộ nhớ.
+• Quản lý bộ nhớ.
 
-•Tùy biến chưa thật sự tốt ở một số module.
+• Thiếu các component, tuy nhiên đang dần có nhiều cập nhật mới.
 
-•Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).
+• Tùy biến chưa thật sự tốt ở một số module.
+
+• Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).
+
+• Không xây dựng được ứng dụng iOS trên Linux và Window bởi Apple yêu cầu tất cả các ứng dụng iOS cần phải được sử dụng nhiều native libs từ Xcode.
 		
 		
 ### V. Xu thế lập trình react-native hiện tại.
