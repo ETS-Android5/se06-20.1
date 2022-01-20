@@ -153,7 +153,7 @@ React Native được đánh giá là một trong những Framework được yê
 •Không thích hợp cho các app cần năng lực tính toán cao (hash, crypto, etc).
 		
 		
-## V. Xu thế lập trình react-native hiện tại.
+### V. Xu thế lập trình react-native hiện tại.
 
 Mạng internet ngày càng phát triển, con người trên thế giới sử dụng điện thoại di động cùng với nhiều phần mềm khác nhau kéo theo sự phát triển không ngừng của công nghệ thông tin làm cho react native ngày càng quan trọng. React native nhắm đến nền tảng điện thoại di động thay cho các trình duyệt. Các nhà lập trình viên web sẽ viết những ứng dụng di động có giao dện tự nhiên cho điện thoại. Điều này cho thấy react native sẽ cho chúng ta tất cả sức mạnh của một ứng dụng native với việc phát triển dễ dàng đi kèm với react.
 
