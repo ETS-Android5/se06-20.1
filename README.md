@@ -340,7 +340,8 @@ Không có người chiến thắng rõ ràng ở đây: cả Flutter và React 
 
 	==> Nếu bạn đã biết JavaScript, viết ứng dụng di động trong React Native là điều không cần bàn cãi. Tuy nhiên, nếu bạn đang tìm kiếm hiệu suất và độ ổn định tốt hơn cũng như môi trường gắn kết hơn giữa các hệ sinh thái, bạn nên cân nhắc dùng thử Flutter.
 	
-	c2:So sánh  ReactJS vs React Native
+	c2:So sánh ReactJS vs React Native
+		c2.1: Khái quát
 		ReactJS và React Native có một lịch sử khá là thú vị:
 
 Vào năm 2021, khi Facebook ads được mở rộng và có thêm nhiều tính năng mới, hấp dẫn hơn, team kỹ sư của Facebook nhận ra rằng việc cập nhập liên tục sẽ làm chậm đi tiến trình của họ.
@@ -354,7 +355,20 @@ Cũng tại thời điểm đó, một kỹ sư của Facebook là Jordan Walke 
 Vào năm 2011, timeline của Facebook được phát triển bởi ReactJS và đây là một bước nhảy vọt.
 
 Vào năm 2012, Instagram đã được Facebook mua lại và sau đó Reactjs cũng được sử dụng cho timeline của Insatgram.
-	c2.1:Điểm khác biệt chính giữa ReactJS và React Native
+	c2.2:Điểm khác biệt chính giữa ReactJS và React Native
+		i,Lợi thế của ReactJS
++1,Dễ học và sử dụng: ReactJS dễ học và sử dụng hơn nhiều. Bất kỳ nhà phát triển nào xuất thân từ nền tảng JavaScript đều có thể dễ dàng hiểu và bắt đầu tạo ứng dụng web bằng React.
++2,Tạo ứng dụng web động trở nên dễ dàng hơn: Để tạo một ứng dụng web động cụ thể bằng HTML rất khó, đòi hỏi mã hóa phức tạp, nhưng React JS đã giải quyết vấn đề đó và làm cho nó dễ dàng hơn. Nó cung cấp ít mã hóa hơn và cung cấp nhiều chức năng hơn.
++3,Các thành phần có thể tái sử dụng: Một ứng dụng web ReactJS được tạo thành từ nhiều thành phần và mỗi thành phần có logic và điều khiển của nó. Những thành phần này có thể được tái sử dụng bất cứ nơi nào bạn cần. Mã có thể sử dụng lại giúp phát triển và bảo trì ứng dụng của bạn dễ dàng hơn.
++4,Nâng cao hiệu suất: ReactJS cải thiện hiệu suất do DOM ảo. React Virtual DOM tồn tại hoàn toàn trong bộ nhớ và là đại diện cho DOM của trình duyệt web. Do đó, khi chúng tôi viết một thành phần React, chúng tôi đã không ghi trực tiếp vào DOM. Thay vào đó, chúng tôi đang viết các thành phần ảo phản ứng sẽ chuyển thành DOM, dẫn đến hiệu suất mượt mà và nhanh hơn.
++5,Sự hỗ trợ của các công cụ tiện dụng : ReactJS hỗ trợ một bộ công cụ tiện dụng giúp cho công việc của các nhà phát triển trở nên dễ hiểu và dễ dàng hơn. Nó cũng cho phép bạn chọn các thành phần cụ thể và kiểm tra và chỉnh sửa các Đạo cụ và Trạng thái hiện tại của chúng.
+		ii,Nhược điểm của ReactJS
++1,Tốc độ phát triển cao: Như chúng ta đã biết, các khuôn khổ liên tục thay đổi rất nhanh. Các nhà phát triển không cảm thấy thoải mái khi thường xuyên học lại các cách làm việc mới. Họ có thể khó chấp nhận tất cả những thay đổi này với tất cả các bản cập nhật liên tục.
++2,Tài liệu kém: Công nghệ React cập nhật và tăng tốc quá nhanh nên không có thời gian để tạo tài liệu thích hợp. Để khắc phục điều này, các nhà phát triển tự viết hướng dẫn với sự phát triển của các bản phát hành và công cụ mới trong các dự án hiện tại của họ.
++3,Phần xem: ReactJS chỉ bao gồm các Lớp giao diện người dùng của ứng dụng và không có gì khác. Vì vậy bạn vẫn cần chọn một số công nghệ khác để có được một bộ công cụ hoàn chỉnh để phát triển trong dự án.
++4,Được biết đến là thân thiện với SEO: Các khung JavaScript truyền thống có một vấn đề trong việc xử lý SEO. ReactJS khắc phục được vấn đề này, giúp các nhà phát triển dễ dàng điều hướng trên các công cụ tìm kiếm khác nhau. Đó là vì các ứng dụng ReactJS có thể chạy trên máy chủ, và DOM ảo sẽ hiển thị và trở lại trình duyệt như một trang web thông thường.
++5,Lợi ích của việc có Thư viện JavaScript: Ngày nay, ReactJS đang trở nên phổ biến trong giới phát triển web. Nó cung cấp một thư viện JavaScript rất phong phú, cung cấp sự linh hoạt hơn cho các nhà phát triển web để lựa chọn theo cách họ muốn.
++6,Phạm vi kiểm tra mã: Các ứng dụng ReactJS rất dễ kiểm tra. Nó cung cấp một phạm vi nơi nhà phát triển có thể kiểm tra và gỡ lỗi mã của họ với sự trợ giúp của các công cụ gốc.
 ## 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 
 	a. Ý tưởng và mô tả hệ thống thương mại điện tử ----- Hoàng
