@@ -14,10 +14,10 @@
 
 ## 1. Tìm hiểu về lập trình di động và lập trình react-native 
 
-## a.Tìm hiểu lập trình di động:
+## A.Tìm hiểu lập trình di động:
 ### i. Các khái niệm trong lập trình di dộng 
 		
-• **Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :**
+ **Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :**
 
 Công nghệ thông tin: là một ngành sử dụng hệ thống các thiết bị và máy tính, bao gồm phần cứng, phần mềm, để cung cấp giải pháp xử lý thông tin trên nền công nghệ cho các cá nhân, tổ chức có yêu cầu.
 
@@ -40,25 +40,25 @@ Lập trình ứng dụng di động mang đến một không gian mua sắm, ti
 		
 Khi Điện thoại thông minh được “phổ cập” thì sự phát triển của Mobile App – Ứng dụng di động cũng là một điều tất yếu. Ngày càng có nhiều ứng dụng di động ra đời. Ta có thể kể đến các app như mạng xã hội, mua sắm, ví điện tử cho đến các ứng dụng về sức khỏe, đặt hàng… 
 
-**Xu hướng phát triển Mobile App hiện nay:**
+***Xu hướng phát triển Mobile App hiện nay:***
 
 Giống như bất kỳ “trend” nào, xu hướng phát triển Mobile App cũng luôn biến đổi. Vì vậy, doanh nghiệp cũng phải nhanh nhạy nắm bắt và điều chỉnh phù hợp. Một số xu hướng phát triển Mobile App năm 2021 đã xuất hiện một thời gian, nhưng một số khác lại là những xu hướng mới nhất.
 
-**Cloud-Native:**
+***Cloud-Native:***
 
 Cloud native là một cách tiếp cận để xây dựng Mobile App bằng cách khai thác các lợi thế của mô hình điện toán đám mây. Cloud-native applications là các ứng dụng được viết trên môi trường cloud, thay vì xây dựng trên các trung tâm dữ liệu truyền thống. Mọi thứ trên các ứng dụng này đều do các nhà cung cấp giải pháp Cloud như AWS, Google Cloud hoặc Azure xử lý.
 
 Cloud-native mang đến nhiều lợi ích cho các nhà phát triển và doanh nghiệp. Ví dụ như Google Cloud serverless tooling cho phép mở rộng quy mô tự động tùy thuộc vào lưu lượng truy cập trang web.
 
-**Internet of Things:**
+***Internet of Things:***
 
 Theo dự báo, thị trường IoT ở Mỹ đến năm 2022 sẽ vượt 500 tỷ USD. Và phần lớn thị phần này thuộc về phân khúc điện tử tiêu dùng. Công nghệ IoT đang tác động đến cách con người tương tác với nhau. Đồng thời, nó còn tác động mạnh mẽ đến cách người ta sống trong nhà của họ bằng việc tương tác với các thiết bị gia đình. Có thể thấy rằng, lĩnh vực tác động nổi bật nhất của IoT là nhà thông minh. Số người dùng smartphone để điều khiển thiết bị gia đình thông qua các ứng dụng trên điện thoại ngày càng tăng. Các dự báo cho biết đến năm 2030 sẽ có khoảng 50 tỷ thiết bị IoT được sử dụng trên khắp thế giới. Nghĩa là, một mạng lưới khổng lồ giữa các thiết bị sẽ được tạo ra và kết nối với nhau. Hơn nữa, IoT có tiềm năng chia sẻ dữ liệu, nó chắc chắn sẽ thu hút sự chú ý của ngành công nghiệp ứng dụng.
 
-**Ví điện tử – Mobile Wallet:**
+***Ví điện tử – Mobile Wallet:***
 
 Ví điện tử đang ngày một trở nên phổ biến trong bối cảnh chuyển đổi số đang diễn ra mạnh mẽ. Ở Việt Nam, các ví điện tử như Momo, ShopeePay, ZaloPay… cũng đang trong quá trình tiếp cận và mở rộng thị trường. Ví điện tử mang đến sự tiện lợi, dễ sử dụng, tốc độ xử lý nhanh, nhiều ưu đãi… Vì vậy, người dùng đang dần chấp nhận loại hình thanh toán mới này. Chính vì thế, tiềm năng phát triển của thị trường vẫn còn khá lớn. Tuy nhiên, các nhà phát triển cũng cần cân nhắc về yếu tố bảo mật, rào cản lớn nhất đối với người dùng.
 
-**Trí tuệ nhân tạo (AI) & Machine Learning trong Mobile App:**
+***Trí tuệ nhân tạo (AI) & Machine Learning trong Mobile App:***
 
 AI và Machine Learning đã được đưa vào trong các Mobile App. Những tính năng thường gặp có thể kể đến như Chatbots, nhận dạng khuôn mặt hay tìm kiếm bằng giọng nói. Trong tương lai gần, việc sử dụng camera có tích hợp AI, hay dịch giọng nói sẽ còn phổ biến hơn.
 
@@ -72,11 +72,11 @@ Tương lai của AI sẽ được ứng dụng để:
 	
 	Dự báo
 	
-**Chatbots:**
+***Chatbots:***
 
 Chatbots đã và đang “len lỏi” vào cuộc sống hàng ngày của chúng ta. Những câu hỏi thường gặp như thời gian mở cửa, menu, giá dịch vụ… có thể được trả lời một cách tự động. Người bán vui vẻ vì không phải trả lời lặp lại. Người mua cũng hài lòng vì được phản hồi nhanh chóng. Ứng dụng “My Starbucks Barista” là một ví dụ thành công. Nó cho phép người dùng đặt và thanh toán qua việc giao tiếp bằng giọng nói với trợ lý ảo này. Ở Việt Nam, Chatbots được ứng dụng phổ biến với Facebook Messenger hay các trang TMDT.
 
-**Công nghệ thực tế ảo – thực tế tăng cường (AR-VR):**
+***Công nghệ thực tế ảo – thực tế tăng cường (AR-VR):***
 
 AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pokemon Go! là cú hích lớn cho việc đưa AR vào Mobile game. Giờ đây, nó đã xuất hiện ở nhiều loại ứng dụng hơn như các app chụp ảnh, làm đẹp…
 
@@ -149,7 +149,47 @@ Chịu ảnh hưởng của C++, Ada, Python, Perl và Lisp, Ruby là ngôn ng�
 Là ngôn ngữ lập trình hướng đối tượng, Python thích hợp và khá đơn giản để học đối với những lập trình viên mới bắt đầu học ngôn ngữ. Ngôn ngữ lập trình ứng dụng này tính đa dạng, nó được xem là nền tảng hỗ trợ bạn học thêm về các ngôn ngữ khác.
 
 Điển hình là từ Python, bạn có thể tiếp cận dễ dàng hơn với Ruby hoặc giúp nhiệm vụ covert PHP trở nên đơn giản hơn.
-### iv. Các nền tảng lập trình di đông.
+### iv. Các nền tảng lập trình di đông:
+
+Ngày nay khi nhu cầu sử dụng các ứng dụng của con người có xu hướng thiên về thiết bị di động, các phần mềm dần chuyển lên hỗ trợ hoặc bắt đầu phát triển từ nền tảng mobile. Do vậy mà các nền tảng lập trình mobile cũng trở nên đa dạng hơn so với trước đây. Trong bài viết này chúng ta cùng tìm hiểu những nền tảng lập trình ứng dụng phần mềm mobile, đặc biệt trên hai nền tảng phổ biến nhất tới thời điểm hiện tại là hệ điều hành Android của Google và iOS của Apple.
+
+1. Nền tảng tự nhiên (native):
+
+Từ ngày đầu khi các hệ điều hành mobile xuất hiện thì các nhà sản xuất cũng phát hành cùng với bộ công cụ hỗ trợ lập trình phần mềm cho nền tảng của họ, mà giới lập trình di động hay gọi là Native. Native dịch ra tiếng Việt nghĩa là tự nhiên, cũng đúng với ý nghĩa đó, các phần mềm Native là những phần mềm được xây dựng trên môi trường đặc thù riêng của từng nền tảng do chính nhà phát hành hệ điều hành xây dựng và công bố.
+
+Đối với nền tảng Android chúng ta có nền tảng phát triển ứng dụng là ngôn ngữ lập trình Java, và được Google hỗ trợ bộ công cụ Android Studio (bộ công cụ phát triển dựa trên IntelliJ IDEA). Tiền thân của Android Studio là ADT (một bộ công cụ chỉnh sửa dựa trên Eclipse). Hiện tại ngoài Java là ngôn ngữ lập trình chính, Android của Google còn hỗ trợ thêm nhiều ngôn ngữ lập trình khác như Kotlin, python, C/C++ …
+
+Đối với nền tảng iOS, Apple cung cấp nền tảng ngôn ngữ lập trình Native là Objective-C và Swift. Các ngôn ngữ lập trình này được hỗ trợ bởi một công cụ lập trình cực kỳ mạnh mẽ là Xcode. Khi mới ra đời, iOS chỉ hỗ trợ chính một ngôn ngữ là Objective-C, nhưng với cú pháp gây khó khăn cho những nhà phát triển khi mới bắt đầu tiếp cận, Apple đã phát triển và giới thiệu thêm ngôn ngữ Swift, một ngôn ngữ có cú pháp gần gũi và thân thiện hơn cho người lập trình.
+
+**Ưu điểm:** Là được hỗ trợ mạnh mẽ từ chính nhà phát triển các nền tảng Mobile, khả năng trải nghiệm vận hành phần mềm ở mức tối ưu nhất.
+
+**Nhược điểm:**  Là mỗi nền tảng sẽ cần một đội phát triển, có kinh nghiệm riêng mỗi nền tảng.
+
+**2. Nền tảng crossplatform:**
+
+Với nhu cầu ngày càng cao về ứng dụng di động và những bước phát triển mạnh mẽ của các phần mềm trên các dòng thiết bị này, môi trường phát triển cũng dần trở nên vô cùng sôi động. Giới lập trình cũng có thêm được nhiều sự lựa chọn hơn trong việc phát triển phần mềm.
+
+Trước đây hầu hết những phần mềm di động sẽ chia ra thành nhiều đội phát triển trên từng nền tảng (Android, iOS, Window Mobile, Tizen, Blackberry,fireFoxOS … ), nhưng với những yêu cầu ngày càng khắc khe về thời gian và giá thành phần mềm, những nền tảng crossplatform bắt đầu xuất hiện nhiều hơn. Chúng ta cùng tìm hiểu một số nền tảng nổi bật.
+
+**• Nền tảng di động dựa trên web:**
+
+Đây là những nền tảng phát triển mobile dựa trên nền tảng lập trình web, nhà phát triển là người có kinh nghiệm phát triển ứng dụng web và dễ dàng chuyển qua môi trường phát triển cho di động bởi các ngôn ngữ lập trình và môi trường phát triển trên nền tảng này tương tự hoặc gần gũi với web, ngôn ngữ  lập trình đặc trưng là Javascript, Typescript, CoffeScript, NativeScript, một số ngôn ngữ phát triển từ JavaScript và các công cụ xây dựng giao diện dựa trên HTML,CSS hoặc các công cụ biến thể tương đương, một số nền tảng nổi bật như: Phonegap, IONIC, Apache Cordova …
+
+**Ưu điểm:** Tận dụng được nhân lực lớn từ mảng web chuyển sang, rút ngắn được thời gian tiếp cận.
+
+**Nhược điểm:** Là khả năng tối ưu phần mềm, tốc độ thực thi theo đánh giá không tốt bằng Native, và nhiều tác vụ can thiệp sâu hệ thống không thực hiện được, tuy vậy hiện nay các công cụ cũng đang dần tối ưu bộ công cụ dịch mã để rút ngắn khoảng cách với Native.
+
+**• Nền tảng dựa trên môi trường dịch hướng NATIVE từ bên thứ 3:**
+
+Hiện tại đây là một trong những hướng phát triển mạnh mẽ, và thu hút được lượng lớn các nhà phát triển phần mềm. Phương pháp này phù hợp với những lập trình viên có kinh nghiệm với các ngôn ngữ lập trình hướng đối tượng (xuất phát từ nền tảng lập trình Mobile Native hoặc từ một nền tảng khác mobile). Cách thức hoạt động của nền tảng này là nhà cung cấp xây dựng một môi trường thứ 3, để dịch một ngôn ngữ lập trình của nền tảng thứ 3 (không phải Native) sang nền tảng Native.
+
+Nổi bật phải kể đến là Xamarin của Microsoft, React-native của Facebook và Flutter của Google. Các nền tảng này sẽ có một ngôn ngữ lập trình riêng, Xamarin dùng C#, React-native dùng Javascript, và Flutter dùng Dart làm ngôn ngữ lập trình chính. Các nền tảng này sẽ dịch các mã nguồn từ các ngôn ngữ thứ 3 sang ngôn ngữ Native khi nhà phát triển tiến hành build.
+
+**Ưu điểm:** Là tốc độ thực thi ứng dụng tốt, gần tương đương với ứng dụng Native, rút ngắn thời gian phát triển ứng dụng, thu hút được lượng lập trình viên từ các nền tảng.
+
+**Nhược điểm:** Là cần hỗ trợ từ nhà phát hành khi các hệ điều hành nâng cấp.
+
+
 
 ## B. Tìm hiểu lập trình react-native
 
