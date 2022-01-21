@@ -393,8 +393,11 @@ ReactJS và React Native có một lịch sử khá là thú vị:
 		
 	====>Tóm lại :
  •React Native là một framework trong khi ReactJS là một thư viện JavaScript
+ 
  •React Native không sử dụng HTML
+ 
  •ReactJS và React Native đều dựa trên component-based
+ 
  •Bạn có thể viết các native mobile components trong React Native để tạo cảm giác là ứng dụng này thực sự dành cho thiết bị di động.
 ## 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 
