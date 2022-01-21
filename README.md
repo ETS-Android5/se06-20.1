@@ -40,7 +40,7 @@ Lập trình ứng dụng di động mang đến một không gian mua sắm, ti
 		
 Khi Điện thoại thông minh được “phổ cập” thì sự phát triển của Mobile App – Ứng dụng di động cũng là một điều tất yếu. Ngày càng có nhiều ứng dụng di động ra đời. Ta có thể kể đến các app như mạng xã hội, mua sắm, ví điện tử cho đến các ứng dụng về sức khỏe, đặt hàng… 
 
-***Xu hướng phát triển Mobile App hiện nay:***
+**Xu hướng phát triển Mobile App hiện nay:**
 
 Giống như bất kỳ “trend” nào, xu hướng phát triển Mobile App cũng luôn biến đổi. Vì vậy, doanh nghiệp cũng phải nhanh nhạy nắm bắt và điều chỉnh phù hợp. Một số xu hướng phát triển Mobile App năm 2021 đã xuất hiện một thời gian, nhưng một số khác lại là những xu hướng mới nhất.
 
