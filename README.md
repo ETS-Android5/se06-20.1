@@ -153,7 +153,7 @@ Là ngôn ngữ lập trình hướng đối tượng, Python thích hợp và k
 
 Ngày nay khi nhu cầu sử dụng các ứng dụng của con người có xu hướng thiên về thiết bị di động, các phần mềm dần chuyển lên hỗ trợ hoặc bắt đầu phát triển từ nền tảng mobile. Do vậy mà các nền tảng lập trình mobile cũng trở nên đa dạng hơn so với trước đây. Trong bài viết này chúng ta cùng tìm hiểu những nền tảng lập trình ứng dụng phần mềm mobile, đặc biệt trên hai nền tảng phổ biến nhất tới thời điểm hiện tại là hệ điều hành Android của Google và iOS của Apple.
 
-1. Nền tảng tự nhiên (native):
+**1. Nền tảng tự nhiên (native):**
 
 Từ ngày đầu khi các hệ điều hành mobile xuất hiện thì các nhà sản xuất cũng phát hành cùng với bộ công cụ hỗ trợ lập trình phần mềm cho nền tảng của họ, mà giới lập trình di động hay gọi là Native. Native dịch ra tiếng Việt nghĩa là tự nhiên, cũng đúng với ý nghĩa đó, các phần mềm Native là những phần mềm được xây dựng trên môi trường đặc thù riêng của từng nền tảng do chính nhà phát hành hệ điều hành xây dựng và công bố.
 
