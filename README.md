@@ -15,7 +15,7 @@
 ## 1. Tìm hiểu về lập trình di động và lập trình react-native 
 
 ## A.Tìm hiểu lập trình di động:
-### i. Các khái niệm trong lập trình di dộng 
+### I. Các khái niệm trong lập trình di dộng 
 		
  **Khái niệm về CNTT nói chung và Lập trình Di động nói riêng :**
 
@@ -36,7 +36,7 @@ Lập trình ứng dụng di động là viết ngôn ngữ lập trình (code) 
 Lập trình ứng dụng di động mang đến một không gian mua sắm, tin tức, giải trí thu nhỏ ngay trên Smartphone của mỗi cá nhân.
 
 
-### ii. Xu hướng phát triển lập trình di động:
+### II. Xu hướng phát triển lập trình di động:
 		
 Khi Điện thoại thông minh được “phổ cập” thì sự phát triển của Mobile App – Ứng dụng di động cũng là một điều tất yếu. Ngày càng có nhiều ứng dụng di động ra đời. Ta có thể kể đến các app như mạng xã hội, mua sắm, ví điện tử cho đến các ứng dụng về sức khỏe, đặt hàng… 
 
@@ -81,7 +81,7 @@ Chatbots đã và đang “len lỏi” vào cuộc sống hàng ngày của ch�
 AR-VR tiếp tục là xu hướng phát triển Mobile App của năm 2021. Pokemon Go! là cú hích lớn cho việc đưa AR vào Mobile game. Giờ đây, nó đã xuất hiện ở nhiều loại ứng dụng hơn như các app chụp ảnh, làm đẹp…
 
 
-### iii. Các loại lập trình di động: lập trình native, đa nền tảng … 
+### III. Các loại lập trình di động: lập trình native, đa nền tảng … 
 Thị trường phát triển các ứng dụng di động cũng chủ yếu xoay quay hai loại nền tảng là :IOS và Android
 
 **Ngôn ngữ lập trình ứng dụng IOS:**
@@ -149,7 +149,7 @@ Chịu ảnh hưởng của C++, Ada, Python, Perl và Lisp, Ruby là ngôn ng�
 Là ngôn ngữ lập trình hướng đối tượng, Python thích hợp và khá đơn giản để học đối với những lập trình viên mới bắt đầu học ngôn ngữ. Ngôn ngữ lập trình ứng dụng này tính đa dạng, nó được xem là nền tảng hỗ trợ bạn học thêm về các ngôn ngữ khác.
 
 Điển hình là từ Python, bạn có thể tiếp cận dễ dàng hơn với Ruby hoặc giúp nhiệm vụ covert PHP trở nên đơn giản hơn.
-### iv. Các nền tảng lập trình di đông:
+### IV. Các nền tảng lập trình di đông:
 
 Ngày nay khi nhu cầu sử dụng các ứng dụng của con người có xu hướng thiên về thiết bị di động, các phần mềm dần chuyển lên hỗ trợ hoặc bắt đầu phát triển từ nền tảng mobile. Do vậy mà các nền tảng lập trình mobile cũng trở nên đa dạng hơn so với trước đây. Trong bài viết này chúng ta cùng tìm hiểu những nền tảng lập trình ứng dụng phần mềm mobile, đặc biệt trên hai nền tảng phổ biến nhất tới thời điểm hiện tại là hệ điều hành Android của Google và iOS của Apple.
 
