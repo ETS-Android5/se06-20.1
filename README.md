@@ -112,7 +112,7 @@ Nếu bạn đang có ý định xây dựng một phần mềm doanh nghiệp, 
 
 Ngôn ngữ này có syntax nhỏ gọn, đơn giản và giảm bớt được những dòng code dài dòng và rườm rà. Từ đó, người viết có thể tập trung hơn trong việc giải quyết vấn đề thay vì xoay quanh các câu lệnh phức tạp.
 
-Ngôn ngữ lập trình ứng dụng đa nền tảng:
+**Ngôn ngữ lập trình ứng dụng đa nền tảng:**
 
 Ngoài các ngôn ngữ dành cho các ứng dụng IOS hay Android bạn cũng có thể tham khảo thêm các loại ngôn ngữ lập trình khác dành cho ứng dụng đa nền tảng sau đây:
 
