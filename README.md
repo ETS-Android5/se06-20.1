@@ -193,13 +193,21 @@ Nổi bật phải kể đến là Xamarin của Microsoft, React-native của F
 
 ## B. Tìm hiểu lập trình react-native
 
+**Native App là gì ? **
+
+Native app là các ứng dụng được phát triển và build trên chính những công cụ hỗ trợ mà nhà phát triển iOS và Android cung cấp cho người lập trình viên ở đây là XCode và Android. Chúng được viết bằng ngôn ngữ mà nhà phát triển iOS và Android cung cấp ra iOS thì là Swift hiện tại, xưa là Objective C, còn Android thì hiện tại tồn tại song song là Java và Kotlin. Các ứng dụng Native được build dựa trên ngôn ngữ của chính hệ điều hành và sử dụng những tính năng sẵn có của hệ điều hành mà không phải thông qua bất cứ ứng dụng bên thứ ba hay engine nào khác để vận hành nên tốc độ là nhanh nhất.
+
+**React Native là gì ? **
+
 React Native là một framework ứng dụng di động mã nguồn mở, được phát triển bởi Facebook. Bản phát hành bản đầu tiên của nó là vào ngày 26 tháng 3 năm 2015. React Native được thiết kế để tạo các ứng dụng di động cho iOS và Android bằng cách cung cấp cho các developer một công cụ để sử dụng React cùng với nền tảng di động gốc.
 
 React Native giúp chúng ta tiết kiệm được nhiều thời gian và công sức nếu muốn xây dựng một ứng dụng đa nền tảng (multi-platform)
 
-**I. Các khái niệm trong react-native.**
+**Các khái niệm trong react-native.**
 		
 • Components : là một khái niệm cơ bản của cả React và React native. Chính việc chia nhỏ ứng dụng thành các components nhỏ tạo nên tính tái sử dụng cao và khả năng mở rộng của chúng.
+
+Có hai loại component: class component và function component.
 		
 • Props : là viết tắt của Properties. Một điều mà bạn cần phải nhớ khi sử dụng props đó là không bao giờ nên thay đổi giá trị của nó, hay nói cách khác, đây là một dữ liệu cố định, bất biến.
 
@@ -207,35 +215,33 @@ Các component nhận props từ component cha. Bạn không được thay đổ
 
 • State : State thì hoạt động khác với Props. State là dữ liệu nội bộ của một Component, trong khi props là dữ liệu được truyền cho Component. Chính vì vậy chúng ta hoàn toàn có thể thay đổi state, và coi nó là một kiểu dữ liệu có thể thay đổi. Vì đặc điểm này nên chúng ta hay sử dụng State để thay đổi dữ liệu của view, binding data lại view khi có thay đổi. Nhưng chúng ta không dùng this.state để gán lại giá trị thay đổi cho nó, mà chúng ta sẽ dùng this.setState. Function này sẽ trigger cho class rằng hãy render lại component và các component con của nó, còn this.state thì không.
 
-**II. Cơ chế hoạt động, thư viện.**
 
-***Cơ chế hoạt động***
+**Cơ chế hoạt động**
 
 React Native hoạt động bằng cách tích hợp 2 thread là Main Thread và JS Thread cho ứng dụng mobile. Với Main Thread sẽ đảm nhận vai trò cập nhật giao diện người dùng(UI). Sau đó sẽ xử lý tương tác người dùng. Trong khi đó, JS Thread sẽ thực thi và xử lý code Javascript. Hai luồng này hoạt động độc lập với nhau.
 
 Để tương tác được với nhau hai Thread sẽ sử dụng một Bridge(cầu nối). Cho phép chúng giao tiếp mà không phụ thuộc lẫn nhau, chuyển đổi dữ liệu từ thread này sang thread khác. Dữ liệu từ hai Thread được vận hành khi tiếp nối dữ liệu cho nhau.
 
-***Các thư viện**
 
-• Redux
+***Redux trong React Native**
 
 Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của ngôn ngữ Elm kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React.  Nó giúp các ứng dụng hoạt động ổn định, chạy trong các môi trường khác nhau (client, server, and native) và dễ kiểm tra.
 
 Redux có 4 thành phần như sau:
 
-	1. Actions
+1. Actions
 
 Action là nơi mang các thông tin gửi từ ứng dụng đến Store, mô tả chúng ta muốn làm cái gì với cái store này. Các thông tin này là 1 object mô tả những gì đã xảy ra. Action gồm 2 phần là type (kiểu mô tả action), và giá trị tham số truyền lên.
 
-	2. Reducers
+2. Reducers
 
 Action có nhiệm vụ mô tả những gì xảy ra nhưng lại không chỉ rõ phần state nào của response thay đổi và thay đổi như thế nào. Việc này sẽ do Reducer đảm nhiệm. Reducer nhận 2 tham số: state cũ và thông tin action được gửi lên, sau đó nó biến đổi trả ra một state mới, không làm thay đổi state cũ.
 
-	3. Store
+3. Store
 
 Store là 1 object lưu trữ tất cả state của ứng dụng, cho phép truy cập state qua getState(), update state qua dispatch(action), đăng kí listener qua subscribe(listener). Trong store nó có Dispatcher, Reducer, State. Dispatcher là phần quản lý middleware, thường dùng để gọi API, log,... Sau khi dispatch xong thì nó đẩy xuống Reducer, reducer này đơn giản là 1 function nhận vào 2 thứ: state cũ và thông tin action, biến đổi cho ra state mới. Chính nhờ cái này mà redux có tính predictable, tức là cùng 1 state, cùng 1 action thì nó luôn luôn cho ra 1 state mới giống nhau.
 
-	4. View
+4. View
 
 View là phần giao diện, hiển thị giao diện thông qua state của store.
 
@@ -277,12 +283,11 @@ Chúng ta có thể duy trì một số trạng thái của ứng dụng trong b
 
 Trên máy chủ có thể để Redux được hiển thị, người dùng có thể xử lý các kết xuất ban đầu của chương trình bằng cách truyền tải những trạng thái đến các máy chủ và đợi phản hồi từ nó.
 
-### III. Các xây dựng thư viện, sử dụng thư viện đang có, xây dựng thư viện native (java cho android, swift cho ios).
 
 
-### IV. Ưu - nhược điểm của React Native
+**Ưu - nhược điểm của React Native**
 
-**Ưu điểm**
+***Ưu điểm***
 
 • Có thể tái sử dụng code
 
@@ -300,7 +305,7 @@ React Native được đánh giá là một trong những Framework được yê
 
 Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh thái hoàn toàn khác nhau. Trong trường hợp muốn học lập trình app iOS thì cần phải học Swift hay CocoaPods, Objective-C. Mặt khác, nếu muốn học lập trình Android thì phải học Java, Android SDK, Kotlin. Mỗi framework đều có một gói những công cụ như: libs, testing, packages… và việc các lập trình viên phải cập nhật các tính năng mới nhất của hệ sinh thái là điều cần thiết. Tuy nhiên, với việc lập trình trên React Native, chúng ta chỉ cần học một bộ công cụ duy nhất.
 
-**Nhược điểm**
+***Nhược điểm***
 
 • Yêu cầu Native code.
 
@@ -319,11 +324,11 @@ Một lập trình viên ứng dụng di động cần tìm hiểu hai hệ sinh
 • Không xây dựng được ứng dụng iOS trên Linux và Window bởi Apple yêu cầu tất cả các ứng dụng iOS cần phải được sử dụng nhiều native libs từ Xcode.
 		
 		
-### V. Xu thế lập trình react-native hiện tại.
+**Xu thế lập trình react-native hiện tại.**
 
 Mạng internet ngày càng phát triển, con người trên thế giới sử dụng điện thoại di động cùng với nhiều phần mềm khác nhau kéo theo sự phát triển không ngừng của công nghệ thông tin làm cho react native ngày càng quan trọng. React native nhắm đến nền tảng điện thoại di động thay cho các trình duyệt. Các nhà lập trình viên web sẽ viết những ứng dụng di động có giao dện tự nhiên cho điện thoại. Điều này cho thấy react native sẽ cho chúng ta tất cả sức mạnh của một ứng dụng native với việc phát triển dễ dàng đi kèm với react.
 
-c. So sánh lập trình react-native với các nền tảng khác
+## C. So sánh lập trình react-native với các nền tảng khác ##
 
 	c1:So sánh Flutter và React Native
 	
