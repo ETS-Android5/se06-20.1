@@ -193,11 +193,11 @@ Nổi bật phải kể đến là Xamarin của Microsoft, React-native của F
 
 ## B. Tìm hiểu lập trình react-native
 
-**Native App là gì ? **
+**Native App là gì ?**
 
 Native app là các ứng dụng được phát triển và build trên chính những công cụ hỗ trợ mà nhà phát triển iOS và Android cung cấp cho người lập trình viên ở đây là XCode và Android. Chúng được viết bằng ngôn ngữ mà nhà phát triển iOS và Android cung cấp ra iOS thì là Swift hiện tại, xưa là Objective C, còn Android thì hiện tại tồn tại song song là Java và Kotlin. Các ứng dụng Native được build dựa trên ngôn ngữ của chính hệ điều hành và sử dụng những tính năng sẵn có của hệ điều hành mà không phải thông qua bất cứ ứng dụng bên thứ ba hay engine nào khác để vận hành nên tốc độ là nhanh nhất.
 
-**React Native là gì ? **
+**React Native là gì ?**
 
 React Native là một framework ứng dụng di động mã nguồn mở, được phát triển bởi Facebook. Bản phát hành bản đầu tiên của nó là vào ngày 26 tháng 3 năm 2015. React Native được thiết kế để tạo các ứng dụng di động cho iOS và Android bằng cách cung cấp cho các developer một công cụ để sử dụng React cùng với nền tảng di động gốc.
 
@@ -223,7 +223,7 @@ React Native hoạt động bằng cách tích hợp 2 thread là Main Thread v�
 Để tương tác được với nhau hai Thread sẽ sử dụng một Bridge(cầu nối). Cho phép chúng giao tiếp mà không phụ thuộc lẫn nhau, chuyển đổi dữ liệu từ thread này sang thread khác. Dữ liệu từ hai Thread được vận hành khi tiếp nối dữ liệu cho nhau.
 
 
-***Redux trong React Native**
+***Redux trong React Native***
 
 Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của ngôn ngữ Elm kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React.  Nó giúp các ứng dụng hoạt động ổn định, chạy trong các môi trường khác nhau (client, server, and native) và dễ kiểm tra.
 
@@ -253,7 +253,7 @@ Trong quá trình xây dựng Redux, các chuyên gia đã dựa vào 3 nguyên 
 
 • Sử dụng các hàm thuần túy để thay đổi với mục đích chỉ ra cách state được biến đổi từ Action. Vì thế, chúng ta mới cần sử dụng các pure function được gọi là Reducer.
 
-Những lợi ích của Redux:
+***Những lợi ích của Redux:***
 
 • Hỗ trợ dự đoán trạng thái
 
