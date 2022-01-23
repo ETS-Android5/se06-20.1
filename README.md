@@ -446,7 +446,11 @@ ReactJS và React Native có một lịch sử khá là thú vị:
  •Bạn có thể viết các native mobile components trong React Native để tạo cảm giác là ứng dụng này thực sự dành cho thiết bị di động.
 ## 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 
-	a. Ý tưởng và mô tả hệ thống thương mại điện tử ----- Hoàng
+	a. Ý tưởng và mô tả hệ thống thương mại điện tử
+	i. Ý tưởng
+        Trong thời buổi hiện nay, sự phát triển của công nghệ đã mang đến nhiều mặt tiện ích hơn cho cuộc sống chúng ta. Trong đó có thể kể đến việc mua bán hàng hóa qua kênh 	online với những tính năng vượt trội như: Không giới hạn thời gian, địa điểm, chọn lựa sản phẩm, tham khảo giá cả, thanh toán đơn giản,…
+	Mua bán trực tuyến đang ngày càng trở nên phổ biến hơn. Chỉ cần truy cập vào App/website bán hàng, cho dù là đang trong thời gian hày địa điểm nào, người mua hàng cũng có thể tìm được thông tin của sản phẩm, việc đặt hàng và thanh toán cũng tiết kiệm thời gian và đơn giản hơn. Điều này thuận tiện và tiết kiệm thời gian hơn nhiều so với việc phải tìm đến các của hàng bán lẻ nên khách hàng đang dần chuyển sang lựa chọn mua hàng trực tuyến nhiều hơn. Vì vậy, việc các doanh nghiệp xây dựng trang web bán hàng cho mình là điều quan trọng và cần thiết để gần gũi hơn với người tiêu dùng.
+	
 	
 	b. Các thành phần trong hệ thống và chức năng 
 		 i. Xây dựng website quản trị sản phẩm(frame Yii2, php, mysql) hoặc sử dụng nền tảng firebase.
