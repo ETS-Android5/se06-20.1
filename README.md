@@ -455,7 +455,7 @@ ReactJS và React Native có một lịch sử khá là thú vị:
  
  Vì vậy, nhóm chúng em quyết định thiết kế một App bán hàng trực tuyến để tìm hiểu cách tạo ra 1 ứng dụng có tính chất thiết yếu trong tương lai, giúp bổ sung thêm kiến thức cho bản thân để vững bước hơn trong công việc sau khi tốt nghiệp.
  
-	ii. Mô tả hệ thống
+		 ii. Mô tả hệ thống
 	
 Ứng dụng hiện tại có hầu hết các tính năng của một ứng dụng bán hàng trực tuyến:
 
@@ -473,13 +473,16 @@ ReactJS và React Native có một lịch sử khá là thú vị:
 2. Quản lý sản phẩm
 3. Quản lý đơn hàng
 4. Quản lý thông báo 
-		 ii. Xây dựng App mobile (phần chính)
+		
+		ii. Xây dựng App mobile (phần chính)
 1. Đăng nhập đăng ký, quản lý thông tin cá nhân.
 2. Xem tìm kiếm sản phẩm
 3. Đặt hàng quản lý đơn hàng
 4. Chức năng thông báo
 5. Chức năng thống kê. 
-	c. Yêu cầu kĩ thuật 
+	
+	c. Yêu cầu kĩ thuật
+	
 i. Thực hiện phân tích thiết kế ứng dụng viết vào tài liệu. 
 
 ii. Sử dụng react-native xây dựng 2 nền tảng android, ios 
