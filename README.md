@@ -444,6 +444,7 @@ ReactJS và React Native có một lịch sử khá là thú vị:
  •ReactJS và React Native đều dựa trên component-based
  
  •Bạn có thể viết các native mobile components trong React Native để tạo cảm giác là ứng dụng này thực sự dành cho thiết bị di động.
+ 
 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 
 		a. Ý tưởng và mô tả hệ thống thương mại điện tử
@@ -482,7 +483,6 @@ ReactJS và React Native có một lịch sử khá là thú vị:
 5. Chức năng thống kê. 
 	
 	c. Yêu cầu kĩ thuật
-	
 i. Thực hiện phân tích thiết kế ứng dụng viết vào tài liệu. 
 
 ii. Sử dụng react-native xây dựng 2 nền tảng android, ios 
