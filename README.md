@@ -447,8 +447,8 @@ ReactJS và React Native có một lịch sử khá là thú vị:
  
 2. Xây dựng ứng dụng thương mại điện tử trong lĩnh vực nội thất
 
-		a. Ý tưởng và mô tả hệ thống thương mại điện tử
-		 i. Ý tưởng
+		2.1. Ý tưởng và mô tả hệ thống thương mại điện tử
+		 Ý tưởng
 		 
  Trong thời buổi hiện nay, sự phát triển của công nghệ đã mang đến nhiều mặt tiện ích hơn cho cuộc sống chúng ta. Trong đó có thể kể đến việc mua bán hàng hóa qua kênh 	online với những tính năng vượt trội như: Không giới hạn thời gian, địa điểm, chọn lựa sản phẩm, tham khảo giá cả, thanh toán đơn giản,…
  
@@ -456,39 +456,46 @@ ReactJS và React Native có một lịch sử khá là thú vị:
  
  Vì vậy, nhóm chúng em quyết định thiết kế một App bán hàng trực tuyến để tìm hiểu cách tạo ra 1 ứng dụng có tính chất thiết yếu trong tương lai, giúp bổ sung thêm kiến thức cho bản thân để vững bước hơn trong công việc sau khi tốt nghiệp.
  
-		 ii. Mô tả hệ thống
+		 Mô tả hệ thống
 	
 Ứng dụng hiện tại có hầu hết các tính năng của một ứng dụng bán hàng trực tuyến:
 
- 1. Đăng nhập với tài khoản đăng ký hoặc với Facebook hay tài khoản Google.
+•Đăng nhập với tài khoản đăng ký hoặc với Facebook hay tài khoản Google.
 
- 2. Sau khi đăng nhập, App sẽ hiện lên trang chủ (Home) với các sản phẩm tiêu biểu, người dùng có thể mua trực tiếp tại đây hoặc di chuyển vào danh sách (List) để tìm kiếm sản phẩn phù hợp.
+•Sau khi đăng nhập, App sẽ hiện lên trang chủ (Home) với các sản phẩm tiêu biểu, người dùng có thể mua trực tiếp tại đây hoặc di chuyển vào danh sách (List) để tìm kiếm sản phẩn phù hợp.
 
- 3. Ở mục danh sách, các sản phẩm sẽ được chia thành các danh mục riêng biệt, người dùng có thể chọn sản phẩm theo loại bằng cách này hoặc gõ tên sản phẩm vào thanh tìm kiếm để tra cứu.
+• Ở mục danh sách, các sản phẩm sẽ được chia thành các danh mục riêng biệt, người dùng có thể chọn sản phẩm theo loại bằng cách này hoặc gõ tên sản phẩm vào thanh tìm kiếm để tra cứu.
  
-  4. Sau khi chọn được sản phẩm muốn mua, sản phẩm ấy sẽ được chuyển vào trang thanh toán, tại đây người dùng có thể chọn thêm số lượng, cách thức thanh toán hoặc loại bỏ sản phẩm ra khỏi cửa hàng.
+• Sau khi chọn được sản phẩm muốn mua, sản phẩm ấy sẽ được chuyển vào trang thanh toán, tại đây người dùng có thể chọn thêm số lượng, cách thức thanh toán hoặc loại bỏ sản phẩm ra khỏi cửa hàng.
 	
-	b. Các thành phần trong hệ thống và chức năng 
-		 i. Xây dựng website quản trị sản phẩm(frame Yii2, php, mysql) hoặc sử dụng nền tảng firebase.
-1. Đăng nhập cho quản trị viên
-2. Quản lý sản phẩm
-3. Quản lý đơn hàng
-4. Quản lý thông báo 
+	2.2. Các thành phần trong hệ thống và chức năng 
+	 Xây dựng website quản trị sản phẩm(frame Yii2, php, mysql) hoặc sử dụng nền tảng firebase.
+• Đăng nhập cho quản trị viên
+
+•Quản lý sản phẩm
+
+• Quản lý đơn hàng
+
+• Quản lý thông báo 
 		
-		ii. Xây dựng App mobile (phần chính)
-1. Đăng nhập đăng ký, quản lý thông tin cá nhân.
-2. Xem tìm kiếm sản phẩm
-3. Đặt hàng quản lý đơn hàng
-4. Chức năng thông báo
-5. Chức năng thống kê. 
+	 Xây dựng App mobile (phần chính)
+• Đăng nhập đăng ký, quản lý thông tin cá nhân.
+
+• Xem tìm kiếm sản phẩm
+
+• Đặt hàng quản lý đơn hàng
+
+• Chức năng thông báo
+
+• Chức năng thống kê. 
 	
-	c. Yêu cầu kĩ thuật
-i. Thực hiện phân tích thiết kế ứng dụng viết vào tài liệu. 
+	 Yêu cầu kĩ thuật
+• Thực hiện phân tích thiết kế ứng dụng viết vào tài liệu. 
 
-ii. Sử dụng react-native xây dựng 2 nền tảng android, ios 
+•Sử dụng react-native xây dựng 2 nền tảng android, ios 
 
-iii. Sử dụng các thư viện bên thứ 3 như (firebase, google …). 
+• Sử dụng các thư viện bên thứ 3 như (firebase, google …). 
 
-iv. Thực hiện các chức năng cơ bản của một ứng dụng thương mại điện tử. 
+• Thực hiện các chức năng cơ bản của một ứng dụng thương mại điện tử. 
 
-v. Nâng cao: có thể xây dựng thư viện và sử dụng.
+• Nâng cao: có thể xây dựng thư viện và sử dụng.
